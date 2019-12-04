@@ -1,0 +1,110 @@
+% 注释表和缩略词，硕博论文用。
+% 《要求》没有规定内容格式，按照自己的喜好来改吧。
+% 注意，表格里的文字不要太长哦。
+
+\chapter*{注释表}
+
+\noindent\begin{longtabu} to \textwidth {|X[c]|p{5.0cm}|X[c]|p{5.0cm}|}\hline
+\multirow{2}{*}{$x_{sA}$} & \multirow{2}{5.0cm}{转子几何轴在A端位移传感器截面处$x$轴方向的位移} &
+$m_A $ & 校正盘A上的增重质量大小 \\ \cline{3-4}
+& & $m_B $ & 校正盘B上的增重质量大小 \\ \hline
+
+\multirow{2}{*}{$y_{sA}$} & \multirow{2}{5.0cm}{转子几何轴在A端位移传感器截面处$y$轴方向的位移} &
+$\phi _A$ & 校正盘A上的增重质量相位 \\ \cline{3-4}
+& & $\phi _B$ & 校正盘B上的增重质量相位 \\ \hline
+
+\multirow{2}{*}{$x_{sB}$} & \multirow{2}{5.0cm}{转子几何轴在B端位移传感器截面处$x$轴方向的位移} &
+$k_f$ & 陷波器增益 \\ \cline{3-4}
+& & $\theta _f$ & 陷波器相位角 \\ \hline
+
+\multirow{2}{*}{$y_{sB}$} & \multirow{2}{5.0cm}{转子几何轴在B端位移传感器截面处$y$轴方向的位移} &
+$\Omega _f$ & 陷波器中心频率 \\ \cline{3-4}
+& & $N_f(s)$ & 陷波器开环传递函数 \\ \hline
+
+\multirow{2}{*}{$x_{bA}$} & \multirow{2}{5.0cm}{转子几何轴在A端磁轴承处$x$轴方向的位移} &
+$N(s)$ & 陷波器闭环传递函数 \\ \cline{3-4}
+& & $S_0(s)$ & 输出敏感度函数 \\ \hline
+
+\multirow{2}{*}{$y_{bA}$} & \multirow{2}{5.0cm}{转子几何轴在A端磁轴承处$y$轴方向的位移} &
+$\varepsilon $ & 重复控制器控制增益 \\ \cline{3-4}
+& & $f_s$ & 控制频率 \\ \hline
+
+\multirow{2}{*}{$x_{bB}$} & \multirow{2}{5.0cm}{转子几何轴在B端磁轴承处$x$轴方向的位移} &
+$T_s$ & 控制周期 \\ \cline{3-4}
+& & $k_{sA}$ & A端磁轴承位移刚度 \\ \hline
+
+\multirow{2}{*}{$y_{bB}$} & \multirow{2}{5.0cm}{转子几何轴在B端磁轴承处$y$轴方向的位移} &
+$k_{sB}$ & B端磁轴承位移刚度 \\ \cline{3-4}
+& & $k_{iA}$ & A端磁轴承电流刚度 \\ \hline
+
+\multirow{2}{*}{$I_x$、$I_y$、$I_z$} & \multirow{2}{5.0cm}{转子绕$x$、$y$和$z$轴的惯性力矩} &
+$k_{iB}$ & B端磁轴承电流刚度 \\ \cline{3-4}
+& & $k_s$ & 位移刚度 \\ \hline
+
+\multirow{2}{*}{$q _s$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
+$f_c $ & 截止频率 \\ \cline{3-4}
+& & $\omega _s$ & 控制角频率 \\ \hline
+
+\multirow{2}{*}{$q_{\Delta}$} & \multirow{2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
+$\omega _d$ & 扰动信号基波角频率 \\ \cline{3-4}
+& & $k_s$ & 位移刚度 \\ \hline
+
+\multirow{2}{*}{${{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
+$f_m$ & 磁悬浮力 \\ \cline{3-4}
+& & $k_i$ & 电流刚度 \\ \hline
+
+\multirow{2}{*}{$z_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心的平面轨迹} &
+$z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+& & $z_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+
+\multirow{2}{*}{$f_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
+$G_w(s)$ & 功率放大器传递函数 \\ \cline{3-4}
+& & $G_c(s)$ & PID控制器传递函数 \\ \hline
+
+\multirow{2}{*}{$\eta _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
+$G_s(s)$ & 位移传感器传递函数 \\ \cline{3-4}
+& & $G_{rc}(z)$ & 传统重复控制器开关传递函数 \\ \hline
+
+\multirow{2}{*}{$\nu _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
+$l_{bA}$ & A端磁轴承到质心的距离 \\ \cline{3-4}
+& & $l_{bB}$ & B端磁轴承到质心的距离 \\ \hline
+
+\multirow{2}{*}{$\eta _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的平动位移} &
+$l_{sA}$ & A端位移传感器到质心的距离 \\ \cline{3-4}
+& & $l_{sB}$ & B端位移传感器到质心的距离 \\ \hline
+
+\multirow{2}{*}{$\nu _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的转动位移} &
+$l_{cA}$ & A端校正盘到质心的距离 \\ \cline{3-4}
+& & $l_{cB}$ & B端校正盘到质心的距离 \\ \hline
+
+$q_i$ & 广义坐标下转子惯性轴位移 & $q_b$ & 轴承坐标下转子几何轴位移 \\ \hline
+$q _g$ & 广义坐标下转子几何轴位移 & $\Theta {{q}_s}$ & 位移传感器测量误差 \\ \hline
+$\beta _i$ & 转子惯性轴绕$y$轴的旋转角度 & $\beta _g$ & 转子几何轴绕$y$轴的旋转角度 \\ \hline
+$\alpha _i$ & 转子惯性轴绕$x$轴的旋转角度 & $\alpha _g$ & 转子几何轴绕$x$轴的旋转角度 \\ \hline
+$x_i$ & 转子惯性轴在$x$轴方向的位移 & $x_g$ & 转子几何轴在$x$轴方向的位移 \\ \hline
+$y_i$ & 转子惯性轴在$x$轴方向的位移 & $y_g$ & 转子几何轴在$x$轴方向的位移 \\ \hline
+$\sigma$ & 转子动平衡的幅值 & $\gamma$ & 转子动不平衡的初相位 \\ \hline
+$\xi$ & 转子静平衡的幅值 & $\theta$ & 转子静不平衡的初相位 \\ \hline
+
+
+
+
+
+\end{longtabu}
+
+\chapter*{缩略词}
+
+\noindent\begin{tabu} to \textwidth {|X[1,c]|X[4,c]|}\hline
+缩略词 & 英文全称 \\ \hline
+PMB & Permanent Magnetic Bearing \\ \hline
+HMB & Hybrid Magnetic Bearing \\ \hline
+ISMB & International Symposium on Magnetic Bearings \\ \hline
+CSMB & Chinese Symposium on Magnetic Bearings \\ \hline
+LMS & Least Mean Square \\ \hline
+PID & Proportion Integration Differentation\\ \hline
+DSP & Digital Signal Processor \\ \hline
+ADC & Analog to Digital Converter\\ \hline
+FPU & Floating Point Uint\\ \hline
+FPGA & Field Programmable Gate Array\\ \hline
+PLL & Phase Locked Loop\\ \hline
+\end{tabu}

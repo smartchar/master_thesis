@@ -1,0 +1,136 @@
+\iffalse
+  % 本块代码被上方的 iffalse 注释掉，如需使用，请改为 iftrue
+  % 使用 Noto 字体替换中文宋体、黑体
+  \setCJKfamilyfont{\CJKrmdefault}[BoldFont=Noto Serif CJK SC Bold]{Noto Serif CJK SC}
+  \renewcommand\songti{\CJKfamily{\CJKrmdefault}}
+  \setCJKfamilyfont{\CJKsfdefault}[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC Medium}
+  \renewcommand\heiti{\CJKfamily{\CJKsfdefault}}
+\fi
+
+\iffalse
+  % 本块代码被上方的 iffalse 注释掉，如需使用，请改为 iftrue
+  % 在 XeLaTeX + ctexbook 环境下使用 Noto 日文字体
+  \setCJKfamilyfont{mc}[BoldFont=Noto Serif CJK JP Bold]{Noto Serif CJK JP}
+  \newcommand\mcfamily{\CJKfamily{mc}}
+  \setCJKfamilyfont{gt}[BoldFont=Noto Sans CJK JP Bold]{Noto Sans CJK JP}
+  \newcommand\gtfamily{\CJKfamily{gt}}
+\fi
+
+
+% 设置基本文档信息，\linebreak 前面不要有空格，否则在无需换行的场合，中文之间的空格无法消除
+\nuaaset{
+  title = {基于重复控制器的磁悬浮轴承转子振动抑制研究},
+  author = {蔡凯文},
+  college = {自动化学院},
+  advisers = {邓智泉教授, 彭聪教授},
+  % applydate = {二〇一八年六月}  % 默认当前日期
+  %
+  % 本科
+  major = {\LaTeX{} 科学与技术},
+  studentid = {131810299},
+  classid = {1318001},
+  % 硕/博士
+  majorsubject = {电气工程},
+  researchfield = {磁悬浮轴承},
+  libraryclassid = {TP371},       % 中图分类号
+  subjectclassid = {080605},      % 学科分类号
+  thesisid = {1028704 18-S000},   % 论文编号
+}
+\nuaasetEn{
+  title = {Vibration Suppression for Magnetic Bearings based on Repetitive Controller},
+  author = {Kaiwen Cai},
+  college = {College of Automation and Engineering},
+  majorsubject = {Electric Engineering},
+  advisers = {Prof.~Zhiquan Deng, Prof.~Cong Peng},
+  degreefull = {Master of Engineering},
+  % applydate = {June, 8012}
+}
+
+% 摘要
+\begin{abstract}
+磁悬浮轴承通过磁力支撑转子，轴承定子与转子之间无物理接触，具有无摩擦、无需润滑、轴承动力学特性可调等优点。其逐步被广泛应用于透平机械领域，尤其是转子高速运转场合。转子质量不平衡和传感器检测面不均匀等因素导致磁悬浮轴承闭环控制系统中存在与转速同频和倍频的正弦扰动信号，引起功率消耗上升、机壳振动加剧，甚至是系统失稳。本文针对上述磁悬浮轴承中的同频与倍频振动问题提出在线和离线组合方案：基于奇数次零相移重复控制器的在线振动抑制方法和现场动平衡方案，。
+
+奇数次零相移重复控制器通过插入单一控制回路，同时消除控制电流中的同频与倍频振动成分。磁悬浮轴承中通常主要存在奇数次倍频扰动，与传统重复控制器方案相比，本文提出的奇数次零相移重复控制器仅在奇数次频率处起作用，而对偶数次频率处的闭环特性没有影响。此外，本文提出的奇数次零相移重复控制器采用零相移低通滤波器，消除了常规低通滤波器相移对控制性能的影响；通过改进低通滤波器在控制回路中的位置，重复控制器谐波抑制性能进一步提升。仿真和实验说明本文提出的奇数次零相移重复控制器方法比传统方法能更有效降低磁悬浮轴承中的振动力以及大幅降低功耗。
+
+基于奇数次零相移重复控制器的现场动平衡方案利用本文提出的奇数次零相移重复控制器实现零电流控制，通过转子位移解析不平衡质量分布，最后在校正盘上增重实现转子不平衡质量补偿。与传统现场动平衡方案，如影响系数法、相对影响系数法相比，该动平衡方案无需试重，操作更加便捷。实验说明该方案可以达到与基于陷波器法的现场动平衡方案同样的不平衡质量辨识精度。
+
+本文研究的该在线和离线组合振动抑制方案有效降低磁悬浮轴承系统中的同频和倍频振动问题，提升磁悬浮悬浮轴承整机稳定性能和回转性能。
+
+\end{abstract}
+\keywords{磁悬浮轴承, 振动抑制, 重复控制器, 现场动平衡}
+
+\begin{abstractEn}
+This document introduces \nuaathesis, the \LaTeX{} document class for NUAA Thesis.
+
+First, we show how to get the source code and compile this document.
+Then we provide snippets for figures, tables, equations, etc.
+Finally we enforce some usage patterns.
+\end{abstractEn}
+\keywordsEn{NUAA thesis, document class, space is accepted here}
+
+
+% 请按自己的论文排版需求，随意修改以下全局设置
+
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\pgfplotsset{
+  table/search path={./fig/},
+}
+\usepackage{ifthen}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{pifont}
+
+\lstdefinestyle{lstStyleBase}{%
+  basicstyle=\small\ttfamily,
+  aboveskip=\medskipamount,
+  belowskip=\medskipamount,
+  lineskip=0pt,
+  boxpos=c,
+  showlines=false,
+  extendedchars=true,
+  upquote=true,
+  tabsize=2,
+  showtabs=false,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\footnotesize,
+  linewidth=\linewidth,
+  xleftmargin=\parindent,
+  xrightmargin=0pt,
+  resetmargins=false,
+  breaklines=true,
+  breakatwhitespace=false,
+  breakindent=0pt,
+  breakautoindent=true,
+  columns=flexible,
+  keepspaces=true,
+  framesep=3pt,
+  rulesep=2pt,
+  framerule=1pt,
+  backgroundcolor=\color{gray!5},
+  stringstyle=\color{green!40!black!100},
+  keywordstyle=\bfseries\color{blue!50!black},
+  commentstyle=\slshape\color{black!60}}
+
+%\usetikzlibrary{external}
+%\tikzexternalize % activate!
+
+\newcommand\cs[1]{\texttt{\textbackslash#1}}
+\newcommand\pkg[1]{\texttt{#1}\textsuperscript{PKG}}
+\newcommand\env[1]{\texttt{#1}}
+
+\theoremstyle{nuaaplain}
+\nuaatheoremchapu{definition}{定义}
+\nuaatheoremchapu{assumption}{假设}
+\nuaatheoremchap{exercise}{练习}
+\nuaatheoremchap{nonsense}{胡诌}
+\nuaatheoremg[句]{lines}{句子}
