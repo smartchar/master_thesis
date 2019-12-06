@@ -13,24 +13,6 @@ Kemper H.
   werden[J].
 \newblock Germany Patent, 1937..
 
-\bibitem{patent19571186527}
-Patent F.
-\newblock 1186527[J].
-\newblock Totally active magnetic suspension system, 1957..
-
-\bibitem{siegwart1990design}
-Siegwart R, Larsonneur R, Traxler A.
-\newblock Design and performance of a high speed milling spindle in digitally
-  controlled active magnetic bearings[R].
-\newblock Technical report, 1990.
-
-\bibitem{ota1990monitoring}
-Ota M, Ando S, Oshima J~i.
-\newblock Monitoring and actuating function of the internal grinding spindle
-  with magnetic bearing[C].
-\newblock Proceedings of Proc. 2nd Int. Symp. Magnetic Bearing, 1990.
-\newblock  205--210.
-
 \bibitem{nojiri1997more}
 Nojiri C, Kijima T, Maekawa J, et~al.
 \newblock More than 1 year continuous operation of a centrifugal pump with a
@@ -177,37 +159,6 @@ Na H~S, Park Y.
   disturbances[J].
 \newblock Journal of Sound and Vibration, 1997, 201(4):427--435.
 
-\bibitem{nonami1998unbalance}
-Nonami K, Fan Q~f, Ueyama H.
-\newblock Unbalance vibration control of magnetic bearing systems using
-  adaptive algorithm with disturbance frequency estimation[J].
-\newblock JSME International Journal Series C Mechanical Systems, Machine
-  Elements and Manufacturing, 1998, 41(2):220--226.
-
-\bibitem{nonami1999adaptive}
-Nonami K, Liu Z~h.
-\newblock Adaptive unbalance vibration control of magnetic bearing system using
-  frequency estimation for multiple periodic disturbances with noise[C].
-\newblock Proceedings of Proceedings of the 1999 IEEE International Conference
-  on Control Applications (Cat. No. 99CH36328), volume~1. IEEE, 1999.
-\newblock  576--581.
-
-\bibitem{markert2002unbalance}
-Markert R, Skricka N, Zhang X.
-\newblock Unbalance compensation on flexible rotors by magnetic bearings using
-  transfer functions[C].
-\newblock Proceedings of Proc. 8th International Symposium on Magnetic
-  Bearings, Mito, Japan, 2002.
-\newblock  417--422.
-
-\bibitem{shi2002direct}
-Shi J, Zmood R, Qin L.
-\newblock The direct method for adaptive feed-forward vibration control of
-  magnetic bearing systems[C].
-\newblock Proceedings of 7th International Conference on Control, Automation,
-  Robotics and Vision, 2002. ICARCV 2002., volume~2. IEEE, 2002.
-\newblock  675--680.
-
 \bibitem{shi2004synchronous}
 Shi J, Zmood R, Qin L.
 \newblock Synchronous disturbance attenuation in magnetic bearing systems using
@@ -345,11 +296,10 @@ Francis B~A, Wonham W~M.
 \newblock The internal model principle for linear multivariable regulators[J].
 \newblock Applied mathematics and optimization, 1975, 2(2):170--194.
 
-\bibitem{srinivasan1990analysis}
-Srinivasan K, Shaw F~R.
-\newblock Analysis and design of repetitive control systems using the
-  regeneration spectrum[C].
-\newblock Proceedings of 1990 American Control Conference. IEEE, 1990.
-\newblock  1150--1155.
+\bibitem{iso2004mechanical}
+ISO S.
+\newblock Mechanical vibration-Vibration of rotating machinery equipped with
+  active magnetic bearings-part 3: Evaluation of stability margin[J].
+\newblock ISO 14839-3: 2006 (E), 2004..
 
 \end{thebibliography}

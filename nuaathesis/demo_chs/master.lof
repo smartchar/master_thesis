@@ -1,59 +1,61 @@
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 国外磁悬浮电机的应用}}{4}{figure.caption.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mecos公司二氧化碳鼓风机}}}{4}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Calnetix公司余热回收发电系统}}}{4}{subfigure.1.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {SKF公司污水处理厂通用鼓风机系统}}}{4}{subfigure.1.3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 国内磁悬浮电机的应用}}{5}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {飞旋科技磁悬浮复合分子泵}}}{5}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {磁谷科技磁悬浮离心式鼓风机}}}{5}{subfigure.2.2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 磁悬浮离心压缩机结构示意图\relax }}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 转子质量不平衡造成几何轴和惯性轴偏离旋转轴\relax }}{13}{figure.caption.12}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 传感器检测面不均与引起检测误差\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 磁悬浮轴承系统控制框图\relax }}{14}{figure.caption.14}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 一种周期信号发生器\relax }}{16}{figure.caption.15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 使用重复控制器抑制电流谐波的控制框图\relax }}{17}{figure.caption.16}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 奇数次、偶数次信号发生器组合示意图\relax }}{20}{figure.caption.17}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 使用奇数次重复控制器抑制电流谐波的控制框图\relax }}{20}{figure.caption.18}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 不同参数下的低通滤波器幅频曲线\relax }}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces $L_0(z)$、$L_1(z)$和$L_2(z)$传递函数幅频曲线\relax }}{24}{figure.caption.20}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 传统整数次重复控制器和零相移奇数次重复控制器仿真模型\relax }}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 加入传统整数次重复控制器和加入零相移奇数次重复控制器的电流波形\relax }}{25}{figure.caption.22}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 初始不平衡质量的幅值和相位\relax }}{29}{figure.caption.23}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 几何中心与旋转中心重合时的不平衡质量的幅值和相位\relax }}{30}{figure.caption.24}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 质量中心与旋转中心重合时的不平衡质量的幅值和相位\relax }}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 插入陷波器的闭环系统控制框图\relax }}{32}{figure.caption.26}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 磁悬浮轴承系统硬件组成\relax }}{37}{figure.caption.27}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 开关功率放大器单路全桥拓扑\relax }}{38}{figure.caption.28}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 磁轴承系统控制顶层软件结构\relax }}{40}{figure.caption.31}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 磁轴承系统实时控制程序\relax }}{40}{figure.caption.32}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 磁轴承系统参数调节程序\relax }}{41}{figure.caption.33}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 磁轴承系统灵敏度函数测量程序\relax }}{42}{figure.caption.34}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 磁悬浮轴承输出敏感度示意图\relax }}{43}{figure.caption.35}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces B端水平方向控制通道输出敏感度函数曲线\relax }}{44}{figure.caption.37}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces B端竖直方向控制通道输出敏感度函数曲线\relax }}{44}{figure.caption.38}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces A端水平方向控制通道输出敏感度函数曲线\relax }}{45}{figure.caption.39}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces A端竖直方向控制通道输出敏感度函数曲线\relax }}{45}{figure.caption.40}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 轴向控制通道输出敏感度函数曲线\relax }}{46}{figure.caption.41}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces 转子250Hz时的线圈电流时域波形实验测量结果，a）加入传统重复控制器前后电流波形，b）加入奇数次零相移重复控制器前后电流波形\relax }}{47}{figure.caption.42}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces 转子250Hz时的线圈电流频谱实验测量结果，a）PID控制，b）PID+传统整数次重复控制器，c）PID+零相移奇数次重复控制器\relax }}{47}{figure.caption.43}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces 转子250Hz时两端的轴心轨迹实验测量结果，a）PID控制，b）PID+传统整数次重复控制器，c）PID+零相移奇数次重复控制器\relax }}{49}{figure.caption.45}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces 转子250Hz时定子基座的加速度实验测量结果，a）PID控制，b）PID+传统整数次重复控制器，c）PID+零相移奇数次重复控制器\relax }}{50}{figure.caption.46}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces 转子不平衡质量引起的位移振动\relax }}{51}{figure.caption.47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {初始不平衡质量引起的位移振动}}}{51}{subfigure.17.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增加配重后转子不平衡质量引起的位移振动}}}{51}{subfigure.17.2}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces 现场动平衡前加入陷波器前后线圈电流时域波形\relax }}{52}{figure.caption.49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前PID控制下线圈电流时域波形}}}{52}{subfigure.18.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前PID+陷波器控制下线圈电流时域波形}}}{52}{subfigure.18.2}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces 现场动平衡前加入陷波器前后$i_{xB}$频谱\relax }}{53}{figure.caption.50}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces 现场动平衡前加入陷波器前后转子双端轴心轨迹\relax }}{54}{figure.caption.51}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前加入陷波器前后B端转子轴心轨迹}}}{54}{subfigure.20.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前加入陷波器前后A端转子轴心轨迹}}}{54}{subfigure.20.2}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces 现场动平衡前加入重复控制器前后线圈电流时域波形\relax }}{55}{figure.caption.52}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前PID控制下线圈电流时域波形}}}{55}{subfigure.21.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前PID+重复控制器控制下线圈电流时域波形}}}{55}{subfigure.21.2}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces 现场动平衡前加入重复控制器前后$i_{sB}$频谱\relax }}{56}{figure.caption.53}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces 现场动平衡前加入重复控制器前后转子双端轴心轨迹\relax }}{57}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前加入重复控制器前后B端转子轴心轨迹}}}{57}{subfigure.23.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前加入重复控制器前后A端转子轴心轨迹}}}{57}{subfigure.23.2}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces 现场动平衡前后$i_{xB}$、$i_{xA}$同频分量幅值\relax }}{57}{figure.caption.56}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces 现场动平衡前后$x_{sB}$、$x_{sA}$同频分量幅值\relax }}{58}{figure.caption.57}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 国外磁悬浮电机的应用}}{3}{figure.caption.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mecos公司二氧化碳鼓风机}}}{3}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Calnetix公司余热回收发电系统}}}{3}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {SKF公司污水处理厂通用鼓风机系统}}}{3}{subfigure.1.3}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 国内磁悬浮电机的应用}}{4}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {飞旋科技磁悬浮复合分子泵}}}{4}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {磁谷科技磁悬浮离心式鼓风机}}}{4}{subfigure.2.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 磁悬浮离心压缩机结构示意图（双端叶轮替换为双端校正盘）\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 转子质量不平衡造成几何轴和惯性轴偏离旋转轴\relax }}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 传感器检测面不均与引起检测误差\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 磁悬浮轴承系统控制框图\relax }}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 一种周期信号发生器\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 使用重复控制器抑制电流谐波的控制框图\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 奇数次、偶数次信号发生器组合示意图\relax }}{19}{figure.caption.17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 使用奇数次重复控制器抑制电流谐波的控制框图\relax }}{19}{figure.caption.18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 不同参数下的低通滤波器幅频曲线\relax }}{21}{figure.caption.19}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces $L_0(z)$、$L_1(z)$和$L_2(z)$传递函数幅频曲线\relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 传统整数次重复控制器和零相移奇数次重复控制器仿真模型\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 加入传统整数次重复控制器和加入零相移奇数次重复控制器的$i_{XB}$时域波形\relax }}{24}{figure.caption.22}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 初始不平衡质量的幅值和相位\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 几何中心与旋转中心重合时的不平衡质量的幅值和相位\relax }}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 质量中心与旋转中心重合时的不平衡质量的幅值和相位\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 插入陷波器的闭环系统控制框图\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 基于重复控制器法的现场动平衡方案流程图\relax }}{35}{figure.caption.27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 磁悬浮轴承系统硬件组成\relax }}{36}{figure.caption.28}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 开关功率放大器单路全桥拓扑\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 磁轴承系统控制顶层软件结构\relax }}{39}{figure.caption.32}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 磁轴承系统实时控制程序\relax }}{39}{figure.caption.33}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 磁轴承系统参数调节程序\relax }}{40}{figure.caption.34}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 磁轴承系统灵敏度函数测量程序\relax }}{41}{figure.caption.35}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 磁悬浮轴承输出敏感度示意图\relax }}{42}{figure.caption.36}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 径向控制通道输出敏感度函数曲线\relax }}{43}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {XA控制通道输出敏感度函数曲线}}}{43}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YA控制通道输出敏感度函数曲线}}}{43}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {XB控制通道输出敏感度函数曲线}}}{43}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {YB控制通道输出敏感度函数曲线}}}{43}{subfigure.8.4}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 轴向控制通道输出敏感度函数曲线\relax }}{44}{figure.caption.39}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 转子250Hz时的控制电流时域波形实验测量结果，a）加入传统重复控制器前后电流波形，b）加入奇数次零相移重复控制器前后电流波形\relax }}{44}{figure.caption.40}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 转子250Hz时的控制电流频谱实验测量结果，a）PID控制，b）PID+传统整数次重复控制器，c）PID+零相移奇数次重复控制器\relax }}{45}{figure.caption.41}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 转子250Hz时两端的轴心轨迹实验测量结果，a）PID控制，b）PID+传统整数次重复控制器，c）PID+零相移奇数次重复控制器\relax }}{46}{figure.caption.43}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 转子250Hz时定子基座的加速度实验测量结果，a）PID控制，b）PID+传统整数次重复控制器，c）PID+零相移奇数次重复控制器\relax }}{47}{figure.caption.44}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces 转子不平衡质量引起的位移振动\relax }}{48}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {初始不平衡质量引起的位移振动}}}{48}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {增加配重后转子不平衡质量引起的位移振动}}}{48}{subfigure.14.2}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces 现场动平衡前加入陷波器前后控制电流时域波形\relax }}{49}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前PID控制下控制电流时域波形}}}{49}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前PID+陷波器控制下控制电流时域波形}}}{49}{subfigure.15.2}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 现场动平衡前加入陷波器前后$i_{XB}$频谱\relax }}{50}{figure.caption.48}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces 现场动平衡前加入陷波器前后转子双端轴心轨迹\relax }}{50}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前加入陷波器前后B端转子轴心轨迹}}}{50}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前加入陷波器前后B端转子轴心轨迹}}}{50}{subfigure.17.2}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces 现场动平衡前加入重复控制器前后控制电流时域波形\relax }}{51}{figure.caption.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前PID控制下控制电流时域波形}}}{51}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前PID+重复控制器控制下控制电流时域波形}}}{51}{subfigure.18.2}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces 现场动平衡前加入重复控制器前后$i_{XB}$频谱\relax }}{51}{figure.caption.51}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces 现场动平衡前加入重复控制器前后转子双端轴心轨迹\relax }}{52}{figure.caption.52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {现场动平衡前加入重复控制器前后B端转子轴心轨迹}}}{52}{subfigure.20.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {现场动平衡前加入重复控制器前后A端转子轴心轨迹}}}{52}{subfigure.20.2}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces 现场动平衡前后$i_{XB}$、$i_{XA}$同频分量幅值\relax }}{53}{figure.caption.54}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces 现场动平衡前后$x_{sB}$、$x_{sA}$同频分量幅值\relax }}{54}{figure.caption.55}
 \contentsfinish 

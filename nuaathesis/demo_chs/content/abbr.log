@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  3 DEC 2019 16:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  5 DEC 2019 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5432,20 +5432,172 @@ Overfull \hbox (4.97223pt too wide) in paragraph at lines 87--87
  []
 
 
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 $
+      i_{XA}$ & XA通道控制电流 & $i_{XB}$ & XB通道控制电流 \\ \hline
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.88 $i_{XA}$ &
+                XA通道控制电流 & $i_{XB}$ & XB通道控制电流 \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no X in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no 通 in font nullfont!
+Missing character: There is no 道 in font nullfont!
+Missing character: There is no 控 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 电 in font nullfont!
+Missing character: There is no 流 in font nullfont!
+! Misplaced alignment tab character &.
+l.88 $i_{XA}$ & XA通道控制电流 &
+                           $i_{XB}$ & XB通道控制电流 \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.88 $i_{XA}$ & XA通道控制电流 & $i_{XB}$ &
+                                      XB通道控制电流 \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no X in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no 通 in font nullfont!
+Missing character: There is no 道 in font nullfont!
+Missing character: There is no 控 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 电 in font nullfont!
+Missing character: There is no 流 in font nullfont!
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.88 ...& XA通道控制电流 & $i_{XB}$ & XB通道控制电流 \\ \hline
+                                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (37.06116pt too wide) in paragraph at lines 88--88
+[]$\OML/cmm/m/it/10 i[]$
+ []
+
+
+Overfull \hbox (17.43024pt too wide) in paragraph at lines 88--88
+\OML/cmm/m/it/10 i[]$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 $
+      i_{YA}$ & YA通道控制电流 & $i_{YB}$ & YB通道控制电流 \\ \hline
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Misplaced alignment tab character &.
+l.89 $i_{YA}$ &
+                YA通道控制电流 & $i_{YB}$ & YB通道控制电流 \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no Y in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no 通 in font nullfont!
+Missing character: There is no 道 in font nullfont!
+Missing character: There is no 控 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 电 in font nullfont!
+Missing character: There is no 流 in font nullfont!
+! Misplaced alignment tab character &.
+l.89 $i_{YA}$ & YA通道控制电流 &
+                           $i_{YB}$ & YB通道控制电流 \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.89 $i_{YA}$ & YA通道控制电流 & $i_{YB}$ &
+                                      YB通道控制电流 \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no Y in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no 通 in font nullfont!
+Missing character: There is no 道 in font nullfont!
+Missing character: There is no 控 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 电 in font nullfont!
+Missing character: There is no 流 in font nullfont!
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.89 ...& YA通道控制电流 & $i_{YB}$ & YB通道控制电流 \\ \hline
+                                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (36.382pt too wide) in paragraph at lines 89--89
+[]$\OML/cmm/m/it/10 i[]$
+ []
+
+
+Overfull \hbox (16.75108pt too wide) in paragraph at lines 89--89
+\OML/cmm/m/it/10 i[]$
+ []
+
+
 ! LaTeX Error: \begin{document} ended by \end{longtabu}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \end{longtabu}
+l.95 \end{longtabu}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.95 \chapter
+l.97 \chapter
              *{缩略词}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5460,7 +5612,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \chapter*
+l.97 \chapter*
               {缩略词}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5470,7 +5622,7 @@ Missing character: There is no 缩 in font nullfont!
 Missing character: There is no 略 in font nullfont!
 Missing character: There is no 词 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 95--96
+Overfull \hbox (20.0pt too wide) in paragraph at lines 97--98
 [] 
  []
 
@@ -5481,7 +5633,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \noindent
+l.99 \noindent
               \begin{tabu} to \textwidth {|X[1,c]|X[4,c]|}\hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5493,7 +5645,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \noindent\begin{tabu}
+l.99 \noindent\begin{tabu}
                            to \textwidth {|X[1,c]|X[4,c]|}\hline
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5504,7 +5656,7 @@ Missing character: There is no o in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.97 \noindent\begin{tabu} to \textwidth {
+l.99 \noindent\begin{tabu} to \textwidth {
                                           |X[1,c]|X[4,c]|}\hline
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5513,7 +5665,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
-l.97 \noindent\begin{tabu} to \textwidth {
+l.99 \noindent\begin{tabu} to \textwidth {
                                           |X[1,c]|X[4,c]|}\hline
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -5540,7 +5692,7 @@ Missing character: There is no | in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.97 ...abu} to \textwidth {|X[1,c]|X[4,c]|}\hline
+l.99 ...abu} to \textwidth {|X[1,c]|X[4,c]|}\hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -5552,8 +5704,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 缩
-      略词 & 英文全称 \\ \hline
+l.100 缩
+       略词 & 英文全称 \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5561,8 +5713,8 @@ Missing character: There is no 缩 in font nullfont!
 Missing character: There is no 略 in font nullfont!
 Missing character: There is no 词 in font nullfont!
 ! Misplaced alignment tab character &.
-l.98 缩略词 &
-           英文全称 \\ \hline
+l.100 缩略词 &
+            英文全称 \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -5577,13 +5729,13 @@ Missing character: There is no 称 in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.98 缩略词 & 英文全称 \\ \hline
-                         
+l.100 缩略词 & 英文全称 \\ \hline
+                          
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 98--98
+Overfull \hbox (20.0pt too wide) in paragraph at lines 100--100
 []
  []
 
@@ -5594,8 +5746,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 P
-      MB & Permanent Magnetic Bearing \\ \hline
+l.101 P
+       MB & Permanent Magnetic Bearing \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5603,8 +5755,8 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.99 PMB &
-           Permanent Magnetic Bearing \\ \hline
+l.101 PMB &
+            Permanent Magnetic Bearing \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -5639,13 +5791,13 @@ Missing character: There is no g in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.99 PMB & Permanent Magnetic Bearing \\ \hline
-                                               
+l.101 PMB & Permanent Magnetic Bearing \\ \hline
+                                                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 99--99
+Overfull \hbox (20.0pt too wide) in paragraph at lines 101--101
 []
  []
 
@@ -5656,7 +5808,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 H
+l.102 H
        MB & Hybrid Magnetic Bearing \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5665,7 +5817,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.100 HMB &
+l.102 HMB &
             Hybrid Magnetic Bearing \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5698,13 +5850,13 @@ Missing character: There is no g in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.100 HMB & Hybrid Magnetic Bearing \\ \hline
+l.102 HMB & Hybrid Magnetic Bearing \\ \hline
                                              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 100--100
+Overfull \hbox (20.0pt too wide) in paragraph at lines 102--102
 []
  []
 
@@ -5715,7 +5867,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 I
+l.103 I
        SMB & International Symposium on Magnetic Bearings \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5725,7 +5877,7 @@ Missing character: There is no S in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.101 ISMB &
+l.103 ISMB &
              International Symposium on Magnetic Bearings \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5777,13 +5929,13 @@ Missing character: There is no s in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.101 ... Symposium on Magnetic Bearings \\ \hline
+l.103 ... Symposium on Magnetic Bearings \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 101--101
+Overfull \hbox (20.0pt too wide) in paragraph at lines 103--103
 []
  []
 
@@ -5794,7 +5946,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 C
+l.104 C
        SMB & Chinese Symposium on Magnetic Bearings \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5804,7 +5956,7 @@ Missing character: There is no S in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.102 CSMB &
+l.104 CSMB &
              Chinese Symposium on Magnetic Bearings \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5850,13 +6002,13 @@ Missing character: There is no s in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.102 ... Symposium on Magnetic Bearings \\ \hline
+l.104 ... Symposium on Magnetic Bearings \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 102--102
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--104
 []
  []
 
@@ -5867,7 +6019,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 L
+l.105 L
        MS & Least Mean Square \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5876,7 +6028,7 @@ Missing character: There is no L in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no S in font nullfont!
 ! Misplaced alignment tab character &.
-l.103 LMS &
+l.105 LMS &
             Least Mean Square \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5903,13 +6055,13 @@ Missing character: There is no e in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.103 LMS & Least Mean Square \\ \hline
+l.105 LMS & Least Mean Square \\ \hline
                                        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--103
+Overfull \hbox (20.0pt too wide) in paragraph at lines 105--105
 []
  []
 
@@ -5920,7 +6072,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 P
+l.106 P
        ID & Proportion Integration Differentation\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5929,7 +6081,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 ! Misplaced alignment tab character &.
-l.104 PID &
+l.106 PID &
             Proportion Integration Differentation\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5976,13 +6128,13 @@ Missing character: There is no n in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.104 ...rtion Integration Differentation\\ \hline
+l.106 ...rtion Integration Differentation\\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 104--104
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--106
 []
  []
 
@@ -5993,7 +6145,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 D
+l.107 D
        SP & Digital Signal Processor \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6002,7 +6154,7 @@ Missing character: There is no D in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no P in font nullfont!
 ! Misplaced alignment tab character &.
-l.105 DSP &
+l.107 DSP &
             Digital Signal Processor \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6036,13 +6188,13 @@ Missing character: There is no r in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.105 DSP & Digital Signal Processor \\ \hline
+l.107 DSP & Digital Signal Processor \\ \hline
                                               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 105--105
+Overfull \hbox (20.0pt too wide) in paragraph at lines 107--107
 []
  []
 
@@ -6053,7 +6205,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 A
+l.108 A
        DC & Analog to Digital Converter\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6062,7 +6214,7 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no C in font nullfont!
 ! Misplaced alignment tab character &.
-l.106 ADC &
+l.108 ADC &
             Analog to Digital Converter\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6098,13 +6250,13 @@ Missing character: There is no r in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.106 ADC & Analog to Digital Converter\\ \hline
+l.108 ADC & Analog to Digital Converter\\ \hline
                                                 
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 106--106
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--108
 []
  []
 
@@ -6115,7 +6267,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 F
+l.109 F
        PU & Floating Point Uint\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6124,7 +6276,7 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no U in font nullfont!
 ! Misplaced alignment tab character &.
-l.107 FPU &
+l.109 FPU &
             Floating Point Uint\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6153,13 +6305,13 @@ Missing character: There is no t in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.107 FPU & Floating Point Uint\\ \hline
+l.109 FPU & Floating Point Uint\\ \hline
                                         
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 107--107
+Overfull \hbox (20.0pt too wide) in paragraph at lines 109--109
 []
  []
 
@@ -6170,7 +6322,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 F
+l.110 F
        PGA & Field Programmable Gate Array\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6180,7 +6332,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no A in font nullfont!
 ! Misplaced alignment tab character &.
-l.108 FPGA &
+l.110 FPGA &
              Field Programmable Gate Array\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6218,13 +6370,13 @@ Missing character: There is no y in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.108 ... & Field Programmable Gate Array\\ \hline
+l.110 ... & Field Programmable Gate Array\\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 108--108
+Overfull \hbox (20.0pt too wide) in paragraph at lines 110--110
 []
  []
 
@@ -6235,7 +6387,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 P
+l.111 P
        LL & Phase Locked Loop\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6244,7 +6396,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no L in font nullfont!
 ! Misplaced alignment tab character &.
-l.109 PLL &
+l.111 PLL &
             Phase Locked Loop\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6271,13 +6423,13 @@ Missing character: There is no p in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.109 PLL & Phase Locked Loop\\ \hline
+l.111 PLL & Phase Locked Loop\\ \hline
                                       
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 109--109
+Overfull \hbox (20.0pt too wide) in paragraph at lines 111--111
 []
  []
 
@@ -6288,7 +6440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{tabu}
+l.112 \end{tabu}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,

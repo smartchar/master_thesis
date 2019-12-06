@@ -1,9 +1,9 @@
-\contentsline {table}{\numberline {2.1}{\ignorespaces 磁悬浮离心压缩机电气参数}}{9}{table.caption.10}
-\contentsline {table}{\numberline {2.2}{\ignorespaces 磁悬浮离心压缩机中磁悬浮轴承系统参数}}{12}{table.caption.11}
-\contentsline {table}{\numberline {5.1}{\ignorespaces STM32F407ZET6性能参数}}{39}{table.caption.29}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Cyclone IV EP4CE40F23I7性能参数}}{39}{table.caption.30}
-\contentsline {table}{\numberline {5.3}{\ignorespaces ISO 14839-3定义磁悬浮轴承输出敏感度函数峰值稳定区间标准}}{43}{table.caption.36}
-\contentsline {table}{\numberline {5.4}{\ignorespaces 250Hz时磁悬浮轴承系统功率实验测量结果}}{48}{table.caption.44}
-\contentsline {table}{\numberline {5.5}{\ignorespaces 径向各自由度在250Hz的输出敏感度相位}}{51}{table.caption.48}
-\contentsline {table}{\numberline {5.6}{\ignorespaces 现场动平衡初始配重及辨识质量}}{53}{table.caption.55}
+\contentsline {table}{\numberline {2.1}{\ignorespaces 磁悬浮离心压缩机电气参数}}{8}{table.caption.10}
+\contentsline {table}{\numberline {2.2}{\ignorespaces 磁悬浮离心压缩机中磁悬浮轴承系统参数}}{11}{table.caption.11}
+\contentsline {table}{\numberline {5.1}{\ignorespaces STM32F407ZET6性能参数}}{38}{table.caption.30}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Cyclone IV EP4CE40F23I7性能参数}}{38}{table.caption.31}
+\contentsline {table}{\numberline {5.3}{\ignorespaces ISO 14839-3定义磁悬浮轴承输出敏感度函数峰值稳定区间标准}}{42}{table.caption.37}
+\contentsline {table}{\numberline {5.4}{\ignorespaces 250Hz时磁悬浮轴承系统功率实验测量结果}}{45}{table.caption.42}
+\contentsline {table}{\numberline {5.5}{\ignorespaces 径向各自由度在250Hz的输出敏感度相位}}{49}{table.caption.46}
+\contentsline {table}{\numberline {5.6}{\ignorespaces 现场动平衡初始配重及辨识质量}}{52}{table.caption.53}
 \contentsfinish 

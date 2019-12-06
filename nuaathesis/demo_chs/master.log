@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  4 DEC 2019 14:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  6 DEC 2019 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2263,7 +2263,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 
 
 (./content/abbr.tex
-Underfull \vbox (badness 10000) detected at line 93
+Underfull \vbox (badness 10000) detected at line 95
  []
 
 [7
@@ -2286,35 +2286,42 @@ File: ./fig/1-Calnetix.png Graphic file (type bmp)
 <./fig/1-Calnetix.png>
 File: ./fig/1-Skf.png Graphic file (type bmp)
 <./fig/1-Skf.png>
- [3]
 File: ./fig/1-Feixuan.jpg Graphic file (type bmp)
 <./fig/1-Feixuan.jpg>
 File: ./fig/1-Cigu.png Graphic file (type bmp)
 <./fig/1-Cigu.png>
- [4] [5] [6] [7] [8]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4] [5] [6] [7]
 第二章
 File: ./fig/2-1-structure.png Graphic file (type bmp)
 <./fig/2-1-structure.png>
-[9
+[8
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <10.53937> not availab
 le
-(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 139
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 136
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.53937pt on input line 139.
+(Font)              scaled to size 10.53937pt on input line 136.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 139.
- [10] [11]
+(Font)              scaled to size 5.0pt on input line 136.
+ [9] [10]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.84042pt on input line 234.
+(Font)              scaled to size 10.84042pt on input line 231.
 File: ./fig/2-2-unbalance.png Graphic file (type bmp)
 <./fig/2-2-unbalance.png>
- [12]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
 File: ./fig/2-3-sensor.png Graphic file (type bmp)
 <./fig/2-3-sensor.png>
- [13]
+ [12]
 File: ./fig/2-4-control.png Graphic file (type bmp)
 <./fig/2-4-control.png>
 
@@ -2323,80 +2330,98 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 283.
 
-[14] [15]
+[13] [14]
 第三章
 File: ./fig/3-1-generator.png Graphic file (type bmp)
 <./fig/3-1-generator.png>
 File: ./fig/3-2-crc.png Graphic file (type bmp)
 <./fig/3-2-crc.png>
-[16
 
-] [17] [18]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15
+
+] [16] [17]
 File: ./fig/3-3-odd_generator.png Graphic file (type bmp)
 <./fig/3-3-odd_generator.png>
 File: ./fig/3-4-orc.png Graphic file (type bmp)
 <./fig/3-4-orc.png>
- [19] [20] [21]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18] [19] [20]
 File: ./fig/3-5-lpf.png Graphic file (type bmp)
 <./fig/3-5-lpf.png>
- [22] [23]
+ [21] [22]
 File: ./fig/3-sensitivity.png Graphic file (type bmp)
 <./fig/3-sensitivity.png>
+ [23]
 File: ./fig/3-simulink_model.png Graphic file (type bmp)
 <./fig/3-simulink_model.png>
 
-Overfull \hbox (25.27617pt too wide) in paragraph at lines 578--579
+Overfull \hbox (25.27617pt too wide) in paragraph at lines 577--578
  [][] 
  []
 
 File: ./fig/3-current.png Graphic file (type bmp)
 <./fig/3-current.png>
-[24] [25] [26]
+[24] [25]
 第四章
-[27
+[26
 
-] [28]
+] [27]
 File: ./fig/4-geo_axis.png Graphic file (type bmp)
 <./fig/4-geo_axis.png>
 File: ./fig/4-geo_axis_co.png Graphic file (type bmp)
 <./fig/4-geo_axis_co.png>
- [29] [30]
+ [28] [29]
 File: ./fig/4-ine_axis_co.png Graphic file (type bmp)
 <./fig/4-ine_axis_co.png>
 File: ./fig/4-nfz.png Graphic file (type bmp)
 <./fig/4-nfz.png>
- [31] [32] [33] [34] [35] [36]
+ [30] [31] [32] [33] [34]
+File: ./fig/4-field_flow.png Graphic file (type bmp)
+<./fig/4-field_flow.png>
+ [35]
 第五章
 File: ./fig/5-component.png Graphic file (type bmp)
 <./fig/5-component.png>
-[37
+[36
 
 ]
 File: ./fig/5-amplifier.png Graphic file (type bmp)
 <./fig/5-amplifier.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37]
 File: ./fig/5-software_top.png Graphic file (type bmp)
 <./fig/5-software_top.png>
- [38] [39]
+ [38]
 File: ./fig/5-software_rtcontrol.png Graphic file (type bmp)
 <./fig/5-software_rtcontrol.png>
- [40]
+ [39]
 File: ./fig/5-software_para.png Graphic file (type bmp)
 <./fig/5-software_para.png>
-
-
-LaTeX Warning: Reference `fig:5-software_sen.png' on page 41 undefined on input
- line 1170.
-
 File: ./fig/5-software_sen.png Graphic file (type bmp)
 <./fig/5-software_sen.png>
-[41]
 
-Package natbib Warning: Citation `iso2004mechanical' on page 42 undefined on in
-put line 1181.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40]
 File: ./fig/5-sen.png Graphic file (type bmp)
 <./fig/5-sen.png>
-[42]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41]
 File: ./fig/5-sens_x.png Graphic file (type bmp)
 <./fig/5-sens_x.png>
 File: ./fig/5-sens_y.png Graphic file (type bmp)
@@ -2405,67 +2430,105 @@ File: ./fig/5-sens_u.png Graphic file (type bmp)
 <./fig/5-sens_u.png>
 File: ./fig/5-sens_v.png Graphic file (type bmp)
 <./fig/5-sens_v.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./fig/5-sens_z.png Graphic file (type bmp)
 <./fig/5-sens_z.png>
- [43] [44] [45]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42]
 File: ./fig/5-orc_current.png Graphic file (type bmp)
 <./fig/5-orc_current.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43]
 File: ./fig/5-orc_current_fft.png Graphic file (type bmp)
 <./fig/5-orc_current_fft.png>
 
-Overfull \hbox (23.85628pt too wide) in paragraph at lines 1275--1276
-[]\TU/SimSun(0)/m/n/10.53937 为 了 定 量 分 析 零 相 移 奇 数 次 重 复 控 制 器 在 各 个 谐 波 频 率 处 
-的 抑 制 能 力，|  直 观 的 方 法 是 对[]图 \T1/ntxtlf/m/n/10.53937 5.13[][]\TU/SimSun(0)/m/n
-/10.53937 的
- []
 
-[46] [47]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44]
 File: ./fig/5-rotor_locus.png Graphic file (type bmp)
 <./fig/5-rotor_locus.png>
+ [45]
 File: ./fig/5-orc_acc.png Graphic file (type bmp)
 <./fig/5-orc_acc.png>
- [48] [49]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46]
 File: ./fig/5-s3-x-w0-pid.png Graphic file (type bmp)
 <./fig/5-s3-x-w0-pid.png>
 File: ./fig/5-s3-x-w1-pid.png Graphic file (type bmp)
 <./fig/5-s3-x-w1-pid.png>
- [50]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./fig/5-s3-i-w1-pid.png Graphic file (type bmp)
 <./fig/5-s3-i-w1-pid.png>
 File: ./fig/5-s3-i-w1-pid-nf.png Graphic file (type bmp)
 <./fig/5-s3-i-w1-pid-nf.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./fig/5-s3-i_f-w1-pid_nf.png Graphic file (type bmp)
 <./fig/5-s3-i_f-w1-pid_nf.png>
- [51]
 
-LaTeX Warning: Reference `fig:5-s3-x_locus-w1-pid-nf_end' on page 52 undefined 
-on input line 1355.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[48]
 File: ./fig/5-s3-x_locus-w1-pid-nf_bend.png Graphic file (type bmp)
 <./fig/5-s3-x_locus-w1-pid-nf_bend.png>
 File: ./fig/5-s3-x_locus-w1-pid-nf_aend.png Graphic file (type bmp)
 <./fig/5-s3-x_locus-w1-pid-nf_aend.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./fig/5-s3-i-w1-pid.png Graphic file (type bmp)
 <./fig/5-s3-i-w1-pid.png>
 File: ./fig/5-s3-i-w1-pid-nf.png Graphic file (type bmp)
 <./fig/5-s3-i-w1-pid-nf.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./fig/5-s3-i_f-w1-pid_orc.png Graphic file (type bmp)
 <./fig/5-s3-i_f-w1-pid_orc.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49]
 File: ./fig/5-s3-x_locus-w1-pid-orc_bend.png Graphic file (type bmp)
 <./fig/5-s3-x_locus-w1-pid-orc_bend.png>
 File: ./fig/5-s3-x_locus-w1-pid-orc_aend.png Graphic file (type bmp)
 <./fig/5-s3-x_locus-w1-pid-orc_aend.png>
 
-LaTeX Warning: Reference `5-s3-x_locus-w1-pid-orc_aend' on page 52 undefined on
- input line 1388.
 
-[52] [53]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50] [51] [52]
 File: ./fig/5-s3-i-w1w2.png Graphic file (type bmp)
 <./fig/5-s3-i-w1w2.png>
 File: ./fig/5-s3-x-w1w2.png Graphic file (type bmp)
 <./fig/5-s3-x-w1w2.png>
- [54]
-Overfull \hbox (13.80254pt too wide) in paragraph at lines 1442--1443
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[53]
+Overfull \hbox (13.80254pt too wide) in paragraph at lines 1449--1450
 []\TU/SimSun(0)/m/n/10.53937 磁 悬 浮 轴 承 输 出 敏 感 度 测 定 实 验 测 定 径 向 自 由 度 的 输 出 敏 
 感 度 函 数 峰 值 分 别 为 $\OT1/ntxtlf/m/n/10.53937 8\OML/ntxmi/m/it/10.53937 :\OT1/ntx
 tlf/m/n/10.53937 0\OML/ntxmi/m/it/10.53937 dB$\TU/SimSun(0)/m/n/10.53937 、| $\O
@@ -2473,60 +2536,53 @@ T1/ntxtlf/m/n/10.53937 10\OML/ntxmi/m/it/10.53937 :\OT1/ntxtlf/m/n/10.53937 1\O
 ML/ntxmi/m/it/10.53937 dB$\TU/SimSun(0)/m/n/10.53937 、|
  []
 
-[55] [56] [57] [58]
+[54]
 第六章
-[59
+[55
 
-] (./master.bbl [60
+] (./master.bbl [56
 
 
 
-] [61] [62]) [63]
+] [57]) [58]
 \openout2 = `content/acknowledge.aux'.
 
- (./content/acknowledge.tex) [64
+ (./content/acknowledge.tex) [59
 
 
 ]
 \openout2 = `content/backmatter.aux'.
 
 
-(./content/backmatter.tex) [65
+(./content/backmatter.tex) [60
 
 
 
-]
-
-Package natbib Warning: There were undefined citations.
-
-[66
+] [61
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1494.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1494.
- (./master.aux (./content/abbr.aux) (./content/acknowledge.aux)
-(./content/backmatter.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1494.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1494.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1517.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1517.
+ (./master.aux (./content/abbr.aux)
+(./content/acknowledge.aux) (./content/backmatter.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1517.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1517.
 
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 449C150D830B5ACD865C0963795DD28E.
+(rerunfilecheck)             Checksum: 1E65256A7F69E45B8CAE7E6390D06AD8.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 55309 strings out of 492956
- 1260528 string characters out of 6128413
- 1457306 words of memory out of 5000000
- 58406 multiletter control sequences out of 15000+600000
+ 55311 strings out of 492956
+ 1261018 string characters out of 6128413
+ 1460308 words of memory out of 5000000
+ 58407 multiletter control sequences out of 15000+600000
  651048 words of font info for 153 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,28n,127p,2381b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,28n,127p,1800b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master.pdf (78 pages).
+Output written on master.pdf (73 pages).
