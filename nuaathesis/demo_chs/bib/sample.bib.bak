@@ -1,5 +1,12 @@
 %# -*- coding: utf-8-unix -*-
 
+@phdthesis{何家希2018磁悬浮高速电机主动振动控制方法及实验研究,
+  title={磁悬浮高速电机主动振动控制方法及实验研究},
+  author={何家希},
+  school={南京航空航天大学},
+  year={2018},
+}
+
 @article{iso2004mechanical,
   title={Mechanical vibration-Vibration of rotating machinery equipped with active magnetic bearings-part 3: Evaluation of stability margin},
   author={ISO, Standard},

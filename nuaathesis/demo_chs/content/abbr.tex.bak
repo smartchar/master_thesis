@@ -41,15 +41,15 @@ $k_{sB}$ & B端磁轴承位移刚度 \\ \cline{3-4}
 $k_{iB}$ & B端磁轴承电流刚度 \\ \cline{3-4}
 & & $k_s$ & 位移刚度 \\ \hline
 
-\multirow{2}{*}{$q _s$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
+\multirow{2}{*}{$\boldsymbol{q _s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
 $f_c $ & 截止频率 \\ \cline{3-4}
 & & $\omega _s$ & 控制角频率 \\ \hline
 
-\multirow{2}{*}{$q_{\Delta}$} & \multirow{2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
+\multirow{2}{*}{$\boldsymbol{q_{\Delta}}$} & \multirow{2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
 $\omega _d$ & 扰动信号基波角频率 \\ \cline{3-4}
 & & $k_s$ & 位移刚度 \\ \hline
 
-\multirow{2}{*}{${{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
+\multirow{2}{*}{$\boldsymbol{{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
 $f_m$ & 磁悬浮力 \\ \cline{3-4}
 & & $k_i$ & 电流刚度 \\ \hline
 
@@ -77,8 +77,8 @@ $l_{sA}$ & A端位移传感器到质心的距离 \\ \cline{3-4}
 $l_{cA}$ & A端校正盘到质心的距离 \\ \cline{3-4}
 & & $l_{cB}$ & B端校正盘到质心的距离 \\ \hline
 
-$q_i$ & 广义坐标下转子惯性轴位移 & $q_b$ & 轴承坐标下转子几何轴位移 \\ \hline
-$q _g$ & 广义坐标下转子几何轴位移 & $\Theta {{q}_s}$ & 位移传感器测量误差 \\ \hline
+$\boldsymbol{q_i}$ & 广义坐标下转子惯性轴位移 & $\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \\ \hline
+$\boldsymbol{q _g}$ & 广义坐标下转子几何轴位移 & $\Theta \boldsymbol{}{{q}_s}$ & 位移传感器测量误差 \\ \hline
 $\beta _i$ & 转子惯性轴绕$y$轴的旋转角度 & $\beta _g$ & 转子几何轴绕$y$轴的旋转角度 \\ \hline
 $\alpha _i$ & 转子惯性轴绕$x$轴的旋转角度 & $\alpha _g$ & 转子几何轴绕$x$轴的旋转角度 \\ \hline
 $x_i$ & 转子惯性轴在$x$轴方向的位移 & $x_g$ & 转子几何轴在$x$轴方向的位移 \\ \hline
@@ -98,6 +98,8 @@ $i_{YA}$ & YA通道控制电流 & $i_{YB}$ & YB通道控制电流 \\ \hline
 
 \noindent\begin{tabu} to \textwidth {|X[1,c]|X[4,c]|}\hline
 缩略词 & 英文全称 \\ \hline
+CRC & Conventional Repetitive Controller \\ \hline
+ZORC & Zero-phase Odd-harmonic Repetitive Controller \\ \hline
 PMB & Permanent Magnetic Bearing \\ \hline
 HMB & Hybrid Magnetic Bearing \\ \hline
 ISMB & International Symposium on Magnetic Bearings \\ \hline
