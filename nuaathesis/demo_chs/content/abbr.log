@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  5 DEC 2019 21:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  19 DEC 2019 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2460,7 +2460,7 @@ Overfull \hbox (29.48036pt too wide) in paragraph at lines 42--42
 
 ! Undefined control sequence.
 l.44 \multirow
-              {2}{*}{$q _s$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
+              {2}{*}{$\boldsymbol{q _s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2475,15 +2475,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.44 \multirow{2
-                }{*}{$q _s$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
+                }{*}{$\boldsymbol{q _s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.44 \multirow{2}{*}{$\boldsymbol
+                                 {q _s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.44 \multirow{2}{*}{$q _s$} &
-                               \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
+l.44 \multirow{2}{*}{$\boldsymbol{q _s}$} &
+                                            \multirow{2}{5.0cm}{位移传感器坐标下转子几何...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2492,8 +2504,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.44 \multirow{2}{*}{$q _s$} & \multirow
-                                        {2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
+l.44 ...row{2}{*}{$\boldsymbol{q _s}$} & \multirow
+                                                  {2}{5.0cm}{位移传感器坐标下转子几何轴位移} &
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2632,7 +2644,7 @@ an alignment. Proceed, and I'll ignore this case.
 
 
 Overfull \hbox (28.73845pt too wide) in paragraph at lines 44--45
-[]$\OML/cmm/m/it/10 q[]$
+[]$[]$
  []
 
 
@@ -2702,7 +2714,7 @@ Overfull \hbox (30.49886pt too wide) in paragraph at lines 46--46
 
 ! Undefined control sequence.
 l.48 \multirow
-              {2}{*}{$q_{\Delta}$} & \multirow{2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
+              {2}{*}{$\boldsymbol{q_{\Delta}}$} & \multirow{2}{5.0cm}{转子几何轴与...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2717,15 +2729,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.48 \multirow{2
-                }{*}{$q_{\Delta}$} & \multirow{2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
+                }{*}{$\boldsymbol{q_{\Delta}}$} & \multirow{2}{5.0cm}{转子几何轴与...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.48 \multirow{2}{*}{$\boldsymbol
+                                 {q_{\Delta}}$} & \multirow{2}{5.0cm}{转子几何轴与...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.48 \multirow{2}{*}{$q_{\Delta}$} &
-                                     \multirow{2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
+l.48 \multirow{2}{*}{$\boldsymbol{q_{\Delta}}$} &
+                                                  \multirow{2}{5.0cm}{转子几何轴与...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2734,8 +2758,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.48 \multirow{2}{*}{$q_{\Delta}$} & \multirow
-                                              {2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
+l.48 ...{*}{$\boldsymbol{q_{\Delta}}$} & \multirow
+                                                  {2}{5.0cm}{转子几何轴与惯性轴之间的偏移量} &
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2879,7 +2903,7 @@ an alignment. Proceed, and I'll ignore this case.
 
 
 Overfull \hbox (31.5336pt too wide) in paragraph at lines 48--49
-[]$\OML/cmm/m/it/10 q[]$
+[]$[]$
  []
 
 
@@ -2948,7 +2972,7 @@ Overfull \hbox (29.48036pt too wide) in paragraph at lines 50--50
 
 ! Undefined control sequence.
 l.52 \multirow
-              {2}{*}{${{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
+              {2}{*}{$\boldsymbol{{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2963,16 +2987,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.52 \multirow{2
-                }{*}{${{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
+                }{*}{$\boldsymbol{{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.52 \multirow{2}{*}{$\boldsymbol
+                                 {{\hat q}_s}$} & \multirow{2}{5.0cm}{位移传感器坐...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.52 \multirow{2}{*}{${{\hat q}_s}$} &
-                                       \multirow{2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
+l.52 \multirow{2}{*}{$\boldsymbol{{\hat q}_s}$} &
+                                                  \multirow{2}{5.0cm}{位移传感器坐...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2981,8 +3016,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.52 \multirow{2}{*}{${{\hat q}_s}$} & \multirow
-                                                {2}{5.0cm}{位移传感器坐标下转子几何轴观测位移} &
+l.52 ...{*}{$\boldsymbol{{\hat q}_s}$} & \multirow
+                                                  {2}{5.0cm}{位移传感器坐标下转子几何轴观测...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3192,7 +3227,7 @@ Overfull \hbox (28.53532pt too wide) in paragraph at lines 54--54
 
 ! Undefined control sequence.
 l.56 \multirow
-              {2}{*}{$z_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心的平面轨迹} &
+              {2}{*}{$\boldsymbol{z}_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3207,15 +3242,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.56 \multirow{2
-                }{*}{$z_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心的平面轨迹} &
+                }{*}{$\boldsymbol{z}_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.56 \multirow{2}{*}{$\boldsymbol
+                                 {z}_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.56 \multirow{2}{*}{$z_c(t) $} &
-                                  \multirow{2}{5.0cm}{转子端面的质量中心的平面轨迹} &
+l.56 \multirow{2}{*}{$\boldsymbol{z}_c(t) $} &
+                                               \multirow{2}{5.0cm}{转子端面的质量中心...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3224,8 +3271,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.56 \multirow{2}{*}{$z_c(t) $} & \multirow
-                                           {2}{5.0cm}{转子端面的质量中心的平面轨迹} &
+l.56 ...{2}{*}{$\boldsymbol{z}_c(t) $} & \multirow
+                                                  {2}{5.0cm}{转子端面的质量中心的平面轨迹} &
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3262,9 +3309,20 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.57 $\boldsymbol
+                 {z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.57 $z_g(t) $ &
-                 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+l.57 $\boldsymbol{z}_g(t) $ &
+                              转子端面几何中心的平面轨迹 \\ \cline{3-4}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3288,16 +3346,16 @@ Missing character: There is no 迹 in font nullfont!
 ! Misplaced \omit.
 \@cline #1-#2\@nil ->\omit 
                            \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Misplaced \span.
 \sp@n ->\span 
               \omit \advance \@multicnt \m@ne 
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -3307,16 +3365,16 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \omit.
 \sp@n ->\span \omit 
                     \advance \@multicnt \m@ne 
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Misplaced alignment tab character &.
 <argument> &
             \omit 
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3327,16 +3385,16 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \omit.
 <argument> &\omit 
                   
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Misplaced \span.
 \sp@n ->\span 
               \omit \advance \@multicnt \m@ne 
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -3346,16 +3404,16 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \omit.
 \sp@n ->\span \omit 
                     \advance \@multicnt \m@ne 
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Misplaced \cr.
 \@cline ...le \@height \arrayrulewidth \hfill \cr 
                                                   \noalign {\vskip -\arrayru...
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -3365,8 +3423,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \@cline ...ht \arrayrulewidth \hfill \cr \noalign 
                                                   {\vskip -\arrayrulewidth }
-l.57 $z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-                                             
+l.57 ...l{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+                                                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -3382,7 +3440,7 @@ Overfull \hbox (20.69186pt too wide) in paragraph at lines 56--57
 
 ! Misplaced alignment tab character &.
 l.58 &
-       & $z_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+       & $\boldsymbol{z}_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3392,7 +3450,7 @@ might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
 l.58 & &
-         $z_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+         $\boldsymbol{z}_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3408,13 +3466,24 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.58 & & $
-          z_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+          \boldsymbol{z}_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.58 & & $\boldsymbol
+                     {z}_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.58 & & $z_{\Delta}(t) $ &
-                            转子端面偏心距的平面轨迹 \\ \hline
+l.58 & & $\boldsymbol{z}_{\Delta}(t) $ &
+                                         转子端面偏心距的平面轨迹 \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3437,7 +3506,7 @@ Missing character: There is no 迹 in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.58 & & $z_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+l.58 ...{z}_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3449,7 +3518,7 @@ Overfull \hbox (43.10889pt too wide) in paragraph at lines 58--58
 
 ! Undefined control sequence.
 l.60 \multirow
-              {2}{*}{$f_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
+              {2}{*}{$\boldsymbol{f}_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3464,15 +3533,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.60 \multirow{2
-                }{*}{$f_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
+                }{*}{$\boldsymbol{f}_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.60 \multirow{2}{*}{$\boldsymbol
+                                 {f}_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.60 \multirow{2}{*}{$f_z(t) $} &
-                                  \multirow{2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
+l.60 \multirow{2}{*}{$\boldsymbol{f}_z(t) $} &
+                                               \multirow{2}{5.0cm}{转子端面的磁悬浮力...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3481,8 +3562,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.60 \multirow{2}{*}{$f_z(t) $} & \multirow
-                                           {2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
+l.60 ...{2}{*}{$\boldsymbol{f}_z(t) $} & \multirow
+                                                  {2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3700,7 +3781,7 @@ Overfull \hbox (44.40154pt too wide) in paragraph at lines 62--62
 
 ! Undefined control sequence.
 l.64 \multirow
-              {2}{*}{$\eta _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
+              {2}{*}{$\boldsymbol{\eta} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3715,15 +3796,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.64 \multirow{2
-                }{*}{$\eta _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
+                }{*}{$\boldsymbol{\eta} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.64 \multirow{2}{*}{$\boldsymbol
+                                 {\eta} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.64 \multirow{2}{*}{$\eta _g(t)$} &
-                                     \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
+l.64 \multirow{2}{*}{$\boldsymbol{\eta} _g(t)$} &
+                                                  \multirow{2}{5.0cm}{广义坐标系下...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3732,8 +3825,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.64 \multirow{2}{*}{$\eta _g(t)$} & \multirow
-                                              {2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
+l.64 ...{*}{$\boldsymbol{\eta} _g(t)$} & \multirow
+                                                  {2}{5.0cm}{广义坐标系下转子几何轴中心的平...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3958,7 +4051,7 @@ Overfull \hbox (48.73259pt too wide) in paragraph at lines 66--66
 
 ! Undefined control sequence.
 l.68 \multirow
-              {2}{*}{$\nu _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
+              {2}{*}{$\boldsymbol{\nu} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3973,15 +4066,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.68 \multirow{2
-                }{*}{$\nu _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
+                }{*}{$\boldsymbol{\nu} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.68 \multirow{2}{*}{$\boldsymbol
+                                 {\nu} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.68 \multirow{2}{*}{$\nu _g(t)$} &
-                                    \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
+l.68 \multirow{2}{*}{$\boldsymbol{\nu} _g(t)$} &
+                                                 \multirow{2}{5.0cm}{广义坐标系下转...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3990,8 +4095,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.68 \multirow{2}{*}{$\nu _g(t)$} & \multirow
-                                             {2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
+l.68 ...}{*}{$\boldsymbol{\nu} _g(t)$} & \multirow
+                                                  {2}{5.0cm}{广义坐标系下转子几何轴中心的转...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4216,7 +4321,7 @@ Overfull \hbox (33.38345pt too wide) in paragraph at lines 70--70
 
 ! Undefined control sequence.
 l.72 \multirow
-              {2}{*}{$\eta _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离...
+              {2}{*}{$\boldsymbol{\eta} _{\Delta}(t)$} & \multirow{2}{5.0cm}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4231,16 +4336,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.72 \multirow{2
-                }{*}{$\eta _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离...
+                }{*}{$\boldsymbol{\eta} _{\Delta}(t)$} & \multirow{2}{5.0cm}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.72 \multirow{2}{*}{$\boldsymbol
+                                 {\eta} _{\Delta}(t)$} & \multirow{2}{5.0cm}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.72 \multirow{2}{*}{$\eta _{\Delta}(t)$} &
-                                            \multirow{2}{5.0cm}{广义坐标系下转子偏心距离...
+l.72 ...{2}{*}{$\boldsymbol{\eta} _{\Delta}(t)$} &
+                                                   \multirow{2}{5.0cm}{广义坐标系...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4249,7 +4365,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.72 ...row{2}{*}{$\eta _{\Delta}(t)$} & \multirow
+l.72 ...oldsymbol{\eta} _{\Delta}(t)$} & \multirow
                                                   {2}{5.0cm}{广义坐标系下转子偏心距离的平动...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4478,7 +4594,7 @@ Overfull \hbox (33.64111pt too wide) in paragraph at lines 74--74
 
 ! Undefined control sequence.
 l.76 \multirow
-              {2}{*}{$\nu _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的...
+              {2}{*}{$\boldsymbol{\nu} _{\Delta}(t)$} & \multirow{2}{5.0cm}{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4493,16 +4609,27 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.76 \multirow{2
-                }{*}{$\nu _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的...
+                }{*}{$\boldsymbol{\nu} _{\Delta}(t)$} & \multirow{2}{5.0cm}{...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.76 \multirow{2}{*}{$\boldsymbol
+                                 {\nu} _{\Delta}(t)$} & \multirow{2}{5.0cm}{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.76 \multirow{2}{*}{$\nu _{\Delta}(t)$} &
-                                           \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的...
+l.76 ...w{2}{*}{$\boldsymbol{\nu} _{\Delta}(t)$} &
+                                                   \multirow{2}{5.0cm}{广义坐标系...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4511,7 +4638,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.76 ...irow{2}{*}{$\nu _{\Delta}(t)$} & \multirow
+l.76 ...boldsymbol{\nu} _{\Delta}(t)$} & \multirow
                                                   {2}{5.0cm}{广义坐标系下转子偏心距离的转动...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4742,13 +4869,25 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.80 $
-      q_i$ & 广义坐标下转子惯性轴位移 & $q_b$ & 轴承坐标下转子几何轴位移 \\ \hline
+      \boldsymbol{q_i}$ & 广义坐标下转子惯性轴位移 & $\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.80 $\boldsymbol
+                 {q_i}$ & 广义坐标下转子惯性轴位移 & $\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.80 $q_i$ &
-             广义坐标下转子惯性轴位移 & $q_b$ & 轴承坐标下转子几何轴位移 \\ \hline
+l.80 $\boldsymbol{q_i}$ &
+                          广义坐标下转子惯性轴位移 & $\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4769,8 +4908,8 @@ Missing character: There is no 轴 in font nullfont!
 Missing character: There is no 位 in font nullfont!
 Missing character: There is no 移 in font nullfont!
 ! Misplaced alignment tab character &.
-l.80 $q_i$ & 广义坐标下转子惯性轴位移 &
-                            $q_b$ & 轴承坐标下转子几何轴位移 \\ \hline
+l.80 $\boldsymbol{q_i}$ & 广义坐标下转子惯性轴位移 &
+                                         $\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4778,9 +4917,20 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.80 ...symbol{q_i}$ & 广义坐标下转子惯性轴位移 & $\boldsymbol
+                                                  {q_b}$ & 轴承坐标下转子几何轴位移 \\ \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.80 $q_i$ & 广义坐标下转子惯性轴位移 & $q_b$ &
-                                    轴承坐标下转子几何轴位移 \\ \hline
+l.80 ..._i}$ & 广义坐标下转子惯性轴位移 & $\boldsymbol{q_b}$ &
+                                                   轴承坐标下转子几何轴位移 \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4803,19 +4953,19 @@ Missing character: There is no 移 in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.80 ...标下转子惯性轴位移 & $q_b$ & 轴承坐标下转子几何轴位移 \\ \hline
+l.80 ...\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
 Overfull \hbox (27.79341pt too wide) in paragraph at lines 80--80
-[]$\OML/cmm/m/it/10 q[]$
+[]$[]$
  []
 
 
 Overfull \hbox (8.48079pt too wide) in paragraph at lines 80--80
-\OML/cmm/m/it/10 q[]$
+[]$
  []
 
 
@@ -4826,13 +4976,25 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.81 $
-      q _g$ & 广义坐标下转子几何轴位移 & $\Theta {{q}_s}$ & 位移传感器测量误差 \\ \hline
+      \boldsymbol{q _g}$ & 广义坐标下转子几何轴位移 & $\Theta \boldsymbol{}{{q}_s}$ & 位移...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+<recently read> \boldsymbol 
+                            
+l.81 $\boldsymbol
+                 {q _g}$ & 广义坐标下转子几何轴位移 & $\Theta \boldsymbol{}{{q}_s}$ & 位移...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.81 $q _g$ &
-              广义坐标下转子几何轴位移 & $\Theta {{q}_s}$ & 位移传感器测量误差 \\ \hline
+l.81 $\boldsymbol{q _g}$ &
+                           广义坐标下转子几何轴位移 & $\Theta \boldsymbol{}{{q}_s}$ & 位移...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4853,8 +5015,8 @@ Missing character: There is no 轴 in font nullfont!
 Missing character: There is no 位 in font nullfont!
 Missing character: There is no 移 in font nullfont!
 ! Misplaced alignment tab character &.
-l.81 $q _g$ & 广义坐标下转子几何轴位移 &
-                             $\Theta {{q}_s}$ & 位移传感器测量误差 \\ \hline
+l.81 $\boldsymbol{q _g}$ & 广义坐标下转子几何轴位移 &
+                                          $\Theta \boldsymbol{}{{q}_s}$ & 位移...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4862,9 +5024,18 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+! Undefined control sequence.
+l.81 ... _g}$ & 广义坐标下转子几何轴位移 & $\Theta \boldsymbol
+                                                  {}{{q}_s}$ & 位移传感器测量误差 \\ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Misplaced alignment tab character &.
-l.81 $q _g$ & 广义坐标下转子几何轴位移 & $\Theta {{q}_s}$ &
-                                                位移传感器测量误差 \\ \hline
+l.81 ...下转子几何轴位移 & $\Theta \boldsymbol{}{{q}_s}$ &
+                                                   位移传感器测量误差 \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -4884,19 +5055,19 @@ Missing character: There is no 差 in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.81 ...移 & $\Theta {{q}_s}$ & 位移传感器测量误差 \\ \hline
+l.81 ...boldsymbol{}{{q}_s}$ & 位移传感器测量误差 \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
 Overfull \hbox (29.11658pt too wide) in paragraph at lines 81--81
-[]$\OML/cmm/m/it/10 q[]$
+[]$[]$
  []
 
 
 Overfull \hbox (16.51625pt too wide) in paragraph at lines 81--81
-\OT1/cmr/m/n/10 ^^B[]$
+\OT1/cmr/m/n/10 ^^B[][]$
  []
 
 
@@ -5746,7 +5917,158 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 P
+l.101 C
+       RC & Conventional Repetitive Controller \\ \hline
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no C in font nullfont!
+! Misplaced alignment tab character &.
+l.101 CRC &
+            Conventional Repetitive Controller \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.101 ...ventional Repetitive Controller \\ \hline
+                                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 101--101
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 Z
+       ORC & Zero-phase Odd-harmonic Repetitive Controller \\ \hline
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no Z in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no C in font nullfont!
+! Misplaced alignment tab character &.
+l.102 ZORC &
+             Zero-phase Odd-harmonic Repetitive Controller \\ \hline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no Z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.102 ...-harmonic Repetitive Controller \\ \hline
+                                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 102--102
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 P
        MB & Permanent Magnetic Bearing \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5755,7 +6077,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.101 PMB &
+l.103 PMB &
             Permanent Magnetic Bearing \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5791,13 +6113,13 @@ Missing character: There is no g in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.101 PMB & Permanent Magnetic Bearing \\ \hline
+l.103 PMB & Permanent Magnetic Bearing \\ \hline
                                                 
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 101--101
+Overfull \hbox (20.0pt too wide) in paragraph at lines 103--103
 []
  []
 
@@ -5808,7 +6130,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 H
+l.104 H
        MB & Hybrid Magnetic Bearing \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5817,7 +6139,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.102 HMB &
+l.104 HMB &
             Hybrid Magnetic Bearing \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5850,13 +6172,13 @@ Missing character: There is no g in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.102 HMB & Hybrid Magnetic Bearing \\ \hline
+l.104 HMB & Hybrid Magnetic Bearing \\ \hline
                                              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 102--102
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--104
 []
  []
 
@@ -5867,7 +6189,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 I
+l.105 I
        SMB & International Symposium on Magnetic Bearings \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5877,7 +6199,7 @@ Missing character: There is no S in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.103 ISMB &
+l.105 ISMB &
              International Symposium on Magnetic Bearings \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -5929,13 +6251,13 @@ Missing character: There is no s in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.103 ... Symposium on Magnetic Bearings \\ \hline
+l.105 ... Symposium on Magnetic Bearings \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--103
+Overfull \hbox (20.0pt too wide) in paragraph at lines 105--105
 []
  []
 
@@ -5946,7 +6268,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 C
+l.106 C
        SMB & Chinese Symposium on Magnetic Bearings \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5956,7 +6278,7 @@ Missing character: There is no S in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no B in font nullfont!
 ! Misplaced alignment tab character &.
-l.104 CSMB &
+l.106 CSMB &
              Chinese Symposium on Magnetic Bearings \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6002,13 +6324,13 @@ Missing character: There is no s in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.104 ... Symposium on Magnetic Bearings \\ \hline
+l.106 ... Symposium on Magnetic Bearings \\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 104--104
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--106
 []
  []
 
@@ -6019,7 +6341,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 L
+l.107 L
        MS & Least Mean Square \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6028,7 +6350,7 @@ Missing character: There is no L in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no S in font nullfont!
 ! Misplaced alignment tab character &.
-l.105 LMS &
+l.107 LMS &
             Least Mean Square \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6055,13 +6377,13 @@ Missing character: There is no e in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.105 LMS & Least Mean Square \\ \hline
+l.107 LMS & Least Mean Square \\ \hline
                                        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 105--105
+Overfull \hbox (20.0pt too wide) in paragraph at lines 107--107
 []
  []
 
@@ -6072,7 +6394,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 P
+l.108 P
        ID & Proportion Integration Differentation\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6081,7 +6403,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 ! Misplaced alignment tab character &.
-l.106 PID &
+l.108 PID &
             Proportion Integration Differentation\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6128,13 +6450,13 @@ Missing character: There is no n in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.106 ...rtion Integration Differentation\\ \hline
+l.108 ...rtion Integration Differentation\\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 106--106
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--108
 []
  []
 
@@ -6145,7 +6467,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 D
+l.109 D
        SP & Digital Signal Processor \\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6154,7 +6476,7 @@ Missing character: There is no D in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no P in font nullfont!
 ! Misplaced alignment tab character &.
-l.107 DSP &
+l.109 DSP &
             Digital Signal Processor \\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6188,13 +6510,13 @@ Missing character: There is no r in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.107 DSP & Digital Signal Processor \\ \hline
+l.109 DSP & Digital Signal Processor \\ \hline
                                               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 107--107
+Overfull \hbox (20.0pt too wide) in paragraph at lines 109--109
 []
  []
 
@@ -6205,7 +6527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 A
+l.110 A
        DC & Analog to Digital Converter\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6214,7 +6536,7 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no C in font nullfont!
 ! Misplaced alignment tab character &.
-l.108 ADC &
+l.110 ADC &
             Analog to Digital Converter\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6250,13 +6572,13 @@ Missing character: There is no r in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.108 ADC & Analog to Digital Converter\\ \hline
+l.110 ADC & Analog to Digital Converter\\ \hline
                                                 
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 108--108
+Overfull \hbox (20.0pt too wide) in paragraph at lines 110--110
 []
  []
 
@@ -6267,7 +6589,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 F
+l.111 F
        PU & Floating Point Uint\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6276,7 +6598,7 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no U in font nullfont!
 ! Misplaced alignment tab character &.
-l.109 FPU &
+l.111 FPU &
             Floating Point Uint\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6305,13 +6627,13 @@ Missing character: There is no t in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.109 FPU & Floating Point Uint\\ \hline
+l.111 FPU & Floating Point Uint\\ \hline
                                         
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 109--109
+Overfull \hbox (20.0pt too wide) in paragraph at lines 111--111
 []
  []
 
@@ -6322,7 +6644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 F
+l.112 F
        PGA & Field Programmable Gate Array\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6332,7 +6654,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no A in font nullfont!
 ! Misplaced alignment tab character &.
-l.110 FPGA &
+l.112 FPGA &
              Field Programmable Gate Array\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6370,13 +6692,13 @@ Missing character: There is no y in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.110 ... & Field Programmable Gate Array\\ \hline
+l.112 ... & Field Programmable Gate Array\\ \hline
                                                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 110--110
+Overfull \hbox (20.0pt too wide) in paragraph at lines 112--112
 []
  []
 
@@ -6387,7 +6709,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 P
+l.113 P
        LL & Phase Locked Loop\\ \hline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6396,7 +6718,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no L in font nullfont!
 ! Misplaced alignment tab character &.
-l.111 PLL &
+l.113 PLL &
             Phase Locked Loop\\ \hline
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -6423,13 +6745,13 @@ Missing character: There is no p in font nullfont!
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.111 PLL & Phase Locked Loop\\ \hline
+l.113 PLL & Phase Locked Loop\\ \hline
                                       
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 111--111
+Overfull \hbox (20.0pt too wide) in paragraph at lines 113--113
 []
  []
 
@@ -6440,7 +6762,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \end{tabu}
+l.114 \end{tabu}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6454,10 +6776,10 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 9 strings out of 492956
- 84 string characters out of 6128413
- 69987 words of memory out of 5000000
- 4125 multiletter control sequences out of 15000+600000
+ 10 strings out of 492956
+ 94 string characters out of 6128413
+ 70987 words of memory out of 5000000
+ 4126 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  18i,3n,12p,103b,62s stack positions out of 5000i,500n,10000p,200000b,80000s

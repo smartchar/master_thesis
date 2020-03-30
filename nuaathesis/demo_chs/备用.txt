@@ -1,0 +1,17 @@
+若一个闭环系统的特征多项式可以表示为
+\begin{equation}
+P\left( s \right) + Q\left( s \right){e^{ - Ts}} = 0
+\end{equation}
+那么这个系统的重构谱\cite{srinivasan1990analysis}可以表示为
+\begin{equation}
+R\left( \omega  \right) = \left| {{{Q\left( {j\omega } \right)} \over {P\left( {j\omega } \right)}}} \right|
+\end{equation}
+如果
+\begin{enumerate}
+	\item $R\left( \omega  \right) < 1$
+	\item $P(s)$在$s$平面右半平面没有零点
+\end{enumerate}
+那么对于任意长度的延时时间，闭环系统都是稳定的。
+
+
+&=\dfrac{G_c(z)G_w(z)}{1+G_c(z)P(z)G_s(z)}\cdot \dfrac{1}{1+\dfrac{z^{-N}}{[1-z^{-N}Q(z)][1+G_c(z)P(z)G_s(z)]}\varepsilon C(z)}\\

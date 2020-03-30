@@ -183,7 +183,8 @@
   volume={34},
   number={20},
   pages={16--20},
-  year={2015}
+  year={2015},
+  lang={zh}
 }
 
 @article{缪存孝2014含转子不平衡的磁轴承建模与同频电流抑制,
@@ -426,7 +427,8 @@
   journal={机械工程师},
   number={8},
   pages={15--20},
-  year={2005}
+  year={2005},
+  lang={zh}
 }
 
 @article{苏义鑫2004磁悬浮轴承的变参数,
@@ -447,7 +449,8 @@
   number={20},
   pages={2091--2094},
   year={2006},
-  publisher={中國機械工程雜誌社}
+  publisher={中國機械工程雜誌社},
+  lang={zh}
 }
 
 @article{曾励1999永磁偏置的混合磁悬浮轴承的研究,
@@ -467,7 +470,8 @@
   volume={22},
   number={9},
   pages={54--58},
-  year={2002}
+  year={2002},
+  lang={zh}
 }
 
 
@@ -487,6 +491,7 @@
   number={6},
   pages={1011-1013},
   year={1998},
+  lang={zh}
 }
 
 @article{赵雷1996径向磁悬浮轴承结构特性研究及其模型的建立,
@@ -514,6 +519,7 @@
   number={4},
   pages={25-30},
   year={1992},
+  lang={zh}
 }  
 
 @article{杨泉林1988状态反馈去耦原理在磁悬浮轴承设计中的应用,

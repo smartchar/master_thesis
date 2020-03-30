@@ -1,0 +1,67 @@
+\subsection{谐波扰动对辨识转子不平衡质量的影响}
+从前两小节的推导中可以看出，通过施加一定的控制算法使磁悬浮轴承支撑的转子绕几何轴或者惯性轴旋转，均可以解析出转子初始不平衡质量矢量的幅值和相位。然而以上模型并未考虑位移传感器引入的谐波扰动，本小节将分析该因素对动力学模型和不平衡质量矢量解析准确度的影响。
+
+一、谐波扰动对零位移法辨识不平衡质量的影响
+
+通过施加算法使得转子旋转中心与几何中心重合后，位移传感器采集的位移信号中仍然存在不为零的交流分量，即谐波扰动：
+\begin{equation}
+	\label{eq:zg_0x_h}
+	z_g = \sum_{n = 2}^{\infty}A_ne^{j(n\omega t + \phi _n)}
+\end{equation}
+由此导致控制电流中存在不为零的交流分量，可以表示为：
+\begin{equation}
+	\label{eq:iz_0x_h}
+	i_z = A_ie^{j(\omega t + \phi _i)} + \sum_{n = 2}^{\infty}A_{ni}e^{j(n\omega t + \phi _{ni})}
+\end{equation}
+联立\autoref{eq:z_c}、\autoref{eq:f_z}、\autoref{eq:f_z_a}、\autoref{eq:zg_0x_h}和\autoref{eq:iz_0x_h}可以得到：
+\begin{equation}
+\label{eq:0x_h_eq}
+- m\varepsilon {\omega ^2}{e^{j\left( {\omega t + {\varphi _0}} \right)}} - \left[ {m{n^2}{\omega ^2}\sum\limits_{n = 2}^\infty  {{A_n}{e^{j(n\omega t + {\varphi _n})}}} } \right] = {k_i}{A_i}{e^{j\left( {\omega t + {\varphi _i}} \right)}} + \left[ {{k_i}\sum\limits_{n = 2}^\infty  {{A_{ni}}{e^{j(n\omega t + {\varphi _{ni}})}}}  + {k_s}\sum\limits_{n = 2}^\infty  {{A_n}{e^{j(n\omega t + {\varphi _n})}}} } \right]
+\end{equation}
+\autoref{eq:0x_h_eq}可以得到不平衡质量矢量的幅值和相位分别为
+\begin{equation}
+\left\{
+\begin{aligned}
+& \varepsilon = \frac{k_iA_i}{m{\omega}^2}\\
+& \phi _0 = \phi _i + \pi
+\end{aligned}
+\right.
+\end{equation}
+不平衡质量矢量的幅值和相位辨识结果与不考虑谐波时一致，因此位移传感器谐波扰动对绕几何轴控制的现场动平衡方法精度无影响。
+
+二、谐波扰动对零力法辨识不平衡质量的影响
+
+零力控制要求磁悬浮力交流分量为零，此状态下转子惯性轴与旋转轴重合。然而当位移传感器中包含谐波扰动时，控制电流中必然包含位移传感器引起的谐波扰动，导致磁悬浮力交流分量不为零。因此谐波扰动存在时，转子无法实现零力控制。
+
+三、谐波扰动对零电流法辨识不平衡质量的影响
+
+零电流控制中，加入一定算法（如陷波器法、重复控制器法，详见后文所述）可以抑制控制电流中的同频分量，使得控制电流中的同频分量趋近与零，那么此时控制电流可以表示为：
+\begin{equation}
+	\label{eq:iz_0i_h}
+	{i_z} = \sum\limits_{n = 2}^\infty  {{A_{ni}}{e^{j(n\omega t + {\varphi _{ni}})}}} 
+\end{equation}
+联立\autoref{eq:z_c}、\autoref{eq:f_z}、\autoref{eq:f_z_a}和\autoref{eq:iz_0i_h}可以得到
+\begin{equation}
+\label{eq:0i_h_eq}
+m{\ddot z_g} - m{\omega ^2}\varepsilon {e^{j\left( {\omega t + {\varphi _0}} \right)}} = {k_x}{z_g} + \sum\limits_{n = 2}^\infty  {{A_{ni}}{e^{j(n\omega t + {\varphi _{ni}})}}} 
+\end{equation}
+\autoref{eq:0i_h_eq}表明
+\begin{equation}
+{z_g} \ne {\varepsilon  \over {1 - {{{k_x}} \over {m{\omega ^2}}}}}
+\end{equation}
+即无法通过\autoref{eq:z_delta_0i}解析出不平衡质量矢量。
+
+通过以上分析可以得出结论：磁悬浮轴承中位移传感器引入的谐波扰动对绕几何轴旋转的动平衡方法的不平衡质量矢量辨识准确度没有影响，但是谐波扰动的存在会使得绕惯性轴旋转的动平衡方法不平衡质量矢量辨识结果不准确。
+
+
+$x_{sA}$ & 转子几何轴在A端位移传感器截面处$x$轴方向的位移 & $y_{sA}$ & 转子几何轴在A端位移传感器截面处$y$轴方向的位移 \\ \hline
+$y_{sA}$ & 转子几何轴在A端位移传感器截面处$y$轴方向的位移 & $y_{sA}$ & 转子几何轴在A端位移传感器截面处$y$轴方向的位移 \\ \hline
+$x_{sB}$ & 转子几何轴在B端位移传感器截面处$x$轴方向的位移 & $y_{sB}$ & 转子几何轴在B端位移传感器截面处$y$轴方向的位移 \\ \hline
+$y_{sB}$ & 转子几何轴在B端位移传感器截面处$y$轴方向的位移 & $y_{sB}$ & 转子几何轴在B端位移传感器截面处$y$轴方向的位移 \\ \hline
+
+
+$x_{bA}$ & 转子几何轴在A端磁轴承处$x$轴方向的位移 & $y_{bA}$ & 转子几何轴在A端磁轴承处$y$轴方向的位移 \\ \hline
+$y_{bA}$ & 转子几何轴在A端磁轴承处$y$轴方向的位移 & $y_{bA}$ & 转子几何轴在A端磁轴承处$y$轴方向的位移 \\ \hline
+$x_{bB}$ & 转子几何轴在B端磁轴承处$x$轴方向的位移 & $y_{bB}$ & 转子几何轴在B端磁轴承处$y$轴方向的位移 \\ \hline
+$y_{bB}$ & 转子几何轴在B端磁轴承处$y$轴方向的位移 & $y_{bB}$ & 转子几何轴在B端磁轴承处$y$轴方向的位移 \\ \hline
+

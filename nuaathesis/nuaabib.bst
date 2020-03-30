@@ -1002,7 +1002,7 @@ FUNCTION {manual}
 
 FUNCTION {masterthesis.type}
 { lang empty$
-    { "[D]" }
+    { "[硕士学位论文]" }
     { "\thumasterbib" }
   if$
 }
@@ -1040,7 +1040,7 @@ FUNCTION {misc}
 
 FUNCTION {phdthesis.type}
 { lang empty$
-    { "[D]" }
+    { "[博士学位论文]" }
     { "\thuphdbib" }
   if$
 }

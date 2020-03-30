@@ -53,32 +53,32 @@ $\omega _d$ & 扰动信号基波角频率 \\ \cline{3-4}
 $f_m$ & 磁悬浮力 \\ \cline{3-4}
 & & $k_i$ & 电流刚度 \\ \hline
 
-\multirow{2}{*}{$z_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心的平面轨迹} &
-$z_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
-& & $z_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
+\multirow{2}{*}{$\boldsymbol{z}_c(t) $} & \multirow{2}{5.0cm}{转子端面的质量中心的平面轨迹} &
+$\boldsymbol{z}_g(t) $ & 转子端面几何中心的平面轨迹 \\ \cline{3-4}
+& & $\boldsymbol{z}_{\Delta}(t) $ & 转子端面偏心距的平面轨迹 \\ \hline
 
-\multirow{2}{*}{$f_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
+\multirow{2}{*}{$\boldsymbol{f}_z(t) $} & \multirow{2}{5.0cm}{转子端面的磁悬浮力的平面轨迹} &
 $G_w(s)$ & 功率放大器传递函数 \\ \cline{3-4}
 & & $G_c(s)$ & PID控制器传递函数 \\ \hline
 
-\multirow{2}{*}{$\eta _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
+\multirow{2}{*}{$\boldsymbol{\eta} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的平动位移} &
 $G_s(s)$ & 位移传感器传递函数 \\ \cline{3-4}
 & & $G_{rc}(z)$ & 传统重复控制器开关传递函数 \\ \hline
 
-\multirow{2}{*}{$\nu _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
+\multirow{2}{*}{$\boldsymbol{\nu} _g(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子几何轴中心的转动位移} &
 $l_{bA}$ & A端磁轴承到质心的距离 \\ \cline{3-4}
 & & $l_{bB}$ & B端磁轴承到质心的距离 \\ \hline
 
-\multirow{2}{*}{$\eta _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的平动位移} &
+\multirow{2}{*}{$\boldsymbol{\eta} _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的平动位移} &
 $l_{sA}$ & A端位移传感器到质心的距离 \\ \cline{3-4}
 & & $l_{sB}$ & B端位移传感器到质心的距离 \\ \hline
 
-\multirow{2}{*}{$\nu _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的转动位移} &
+\multirow{2}{*}{$\boldsymbol{\nu} _{\Delta}(t)$} & \multirow{2}{5.0cm}{广义坐标系下转子偏心距离的转动位移} &
 $l_{cA}$ & A端校正盘到质心的距离 \\ \cline{3-4}
 & & $l_{cB}$ & B端校正盘到质心的距离 \\ \hline
 
 $\boldsymbol{q_i}$ & 广义坐标下转子惯性轴位移 & $\boldsymbol{q_b}$ & 轴承坐标下转子几何轴位移 \\ \hline
-$\boldsymbol{q _g}$ & 广义坐标下转子几何轴位移 & $\Theta \boldsymbol{}{{q}_s}$ & 位移传感器测量误差 \\ \hline
+$\boldsymbol{q _g}$ & 广义坐标下转子几何轴位移 & $\Theta {\boldsymbol{q}_s}$ & 位移传感器测量误差 \\ \hline
 $\beta _i$ & 转子惯性轴绕$y$轴的旋转角度 & $\beta _g$ & 转子几何轴绕$y$轴的旋转角度 \\ \hline
 $\alpha _i$ & 转子惯性轴绕$x$轴的旋转角度 & $\alpha _g$ & 转子几何轴绕$x$轴的旋转角度 \\ \hline
 $x_i$ & 转子惯性轴在$x$轴方向的位移 & $x_g$ & 转子几何轴在$x$轴方向的位移 \\ \hline

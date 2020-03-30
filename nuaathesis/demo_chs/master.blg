@@ -14,45 +14,45 @@ Warning--there's a number but no volume in 丛华1999电涡流传感器动态响
 Warning--there's a number but no volume in 张钢2005磁悬浮支承技术在机床中的应用
 Warning--there's a school but no address in 周红海2006分子泵磁悬浮轴承结构及功率放大器设计
 Warning--there's a school but no address in 何家希2018磁悬浮高速电机主动振动控制方法及实验研究
-You've used 52 entries,
+You've used 50 entries,
             2306 wiz_defined-function locations,
-            873 strings with 14807 characters,
-and the built_in function-call counts, 25650 in all, are:
-= -- 2595
-> -- 627
+            861 strings with 14240 characters,
+and the built_in function-call counts, 24431 in all, are:
+= -- 2478
+> -- 593
 < -- 5
-+ -- 292
-- -- 146
-* -- 2240
-:= -- 3448
-add.period$ -- 112
-call.type$ -- 52
++ -- 276
+- -- 138
+* -- 2125
+:= -- 3283
+add.period$ -- 108
+call.type$ -- 50
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 1761
-empty$ -- 2687
-format.name$ -- 189
-if$ -- 5741
+cite$ -- 58
+duplicate$ -- 1674
+empty$ -- 2560
+format.name$ -- 179
+if$ -- 5475
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 50
-newline$ -- 267
-num.names$ -- 52
-pop$ -- 189
+int.to.str$ -- 50
+missing$ -- 48
+newline$ -- 257
+num.names$ -- 50
+pop$ -- 183
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 348
+skip$ -- 332
 stack$ -- 0
-substring$ -- 3700
+substring$ -- 3512
 swap$ -- 47
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 291
-width$ -- 54
-write$ -- 631
+while$ -- 277
+width$ -- 52
+write$ -- 607
 (There were 8 warnings)

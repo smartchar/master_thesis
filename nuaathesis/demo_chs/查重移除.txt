@@ -1,0 +1,66 @@
+\chapter{论文修订记录（正式版删除）}
+
+[2019.12.16] v2.1
+
+邓老师批注修改论文v2.0：修改绪论中的第三人称代指“他”；加入“磁之汇”介绍；删掉“分子泵”等与本文联系不紧密的介绍；文中所有列表序号单括号改为用双括号；第五章“输出敏感度测试实验”移动至第二章；
+
+[2019.12.15] v2.0
+
+重写“摘要”、每一章开头“引文”和“小结”、“研究内容总结”；
+
+第五章“零相移奇数次重复控制器”实验移动至第三章；第五章“基于重复控制器的现场动平衡实验”移动至第四章；
+
+删除第四章“零电流控制”小节中加入陷波器和加入重复控制器前后转子的位移轨迹图；
+
+“奇数次零相移重复控制器”改为“零相移奇数次重复控制器”；
+
+全文用“ZORC”简称“零相移奇数次重复控制器”，用“CRC”简称“传统重复控制器”；
+
+全文改善文字表述，合并小段落，使表达连贯；
+
+修正第四章影响系数法解析表达式；
+
+矢量符号均使用粗体倾斜表示；
+
+
+[2019.12.6] v1.1 
+
+修改严重重复段落；
+
+所有图片位置改为“紧接当前段落”；
+
+优化绪论中图片尺寸、第三章图片以及第四章的五张输出敏感度函数曲线图片；
+
+所有列表改为第一行缩进两个字符，其他行顶头；
+
+增加\autoref{fig:4-field_flow}：基于现场动平衡的现场动平衡流程图；
+
+
+[2019.12.4] v1.0 
+
+论文v1.0~Paperpass查重结果：17\%； 
+
+李克翔批注修改论v1.0；
+
+
+
+
+\subsection*{攻读硕士学位期间发表（录用）论文情况}
+
+（1）Kaiwen Cai，Zhiquan Deng，Cong Peng，Kexiang Li. Suppression of Harmonic Vibration in Magnetically Suspended Centrifugal Compressor Using Zero-Phase Odd-Harmonic Repetitive Controller. IEEE Transactions on Industrial Electronics. In early access. 2019.09.
+
+（2）Kaiwen Cai，Zhiquan Deng，Cong Peng，Kexiang Li. Vibration Suppression Control for MSFW with Gyroscopic Effects Using Synchronous Rotate Frame. 37th China Control Conference.
+Cong Peng, Kaiwen Cai, Zhiquan Deng. Vibration Torque 
+
+（3）Suppression for Magnetically Suspended Flywheel Using Improved Synchronous Rotating Frame Transformation, Shock and Vibration.2019.
+\end{enumerate}
+
+\subsection*{攻读硕士学位期间发表（录用）专利情况}
+
+（1）彭聪，蔡凯文，邓智泉，基于交叉解耦陷波方法的同频振动力矩抑制控制方法，授权发明专利CN107807533B，2019.08.20。
+
+
+\subsection*{研究生期间参与的科研项目}
+
+（1）校企合作项目“高速磁悬浮空气压缩机的磁悬浮轴承技术研究”。
+

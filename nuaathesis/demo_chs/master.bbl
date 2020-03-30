@@ -20,18 +20,6 @@ Nojiri C, Kijima T, Maekawa J, et~al.
 \newblock ASAIO journal (American Society for Artificial Internal Organs:
   1992), 1997, 43(5):M548--52.
 
-\bibitem{hetzer2004first}
-Hetzer R, Weng Y, Potapov E~V, et~al.
-\newblock First experiences with a novel magnetically suspended axial flow left
-  ventricular assist device[J].
-\newblock European Journal of cardio-thoracic surgery, 2004, 25(6):964--970.
-
-\bibitem{de2006clinical}
-De~Robertis F, Birks E, Rogers P, et~al.
-\newblock Clinical performance with the Levitronix Centrimag short-term
-  ventricular assist device[J].
-\newblock The Journal of heart and lung transplantation, 2006, 25(2):181--186.
-
 \bibitem{杨泉林1988状态反馈去耦原理在磁悬浮轴承设计中的应用}
 杨泉林.
 \newblock 状态反馈去耦原理在磁悬浮轴承设计中的应用[J].
@@ -53,7 +41,7 @@ De~Robertis F, Birks E, Rogers P, et~al.
 \newblock 机床与液压, 1996, (5):35--37.
 
 \bibitem{黄晓蔚1998数字控制的有源磁悬浮轴承的实验研究}
-黄晓蔚, 唐钟麟, 冯志华, et~al.
+黄晓蔚, 唐钟麟, 冯志华, 等.
 \newblock 数字控制的有源磁悬浮轴承的实验研究[J].
 \newblock 机械科学与技术, 1998, (6):1011--1013.
 
@@ -68,7 +56,7 @@ De~Robertis F, Birks E, Rogers P, et~al.
 \newblock 清华大学学报: 自然科学版, 1999, 39(4):96--99.
 
 \bibitem{朱熀秋2002永磁偏置径向}
-朱熀秋, 袁寿其, 李冰, et~al.
+朱熀秋, 袁寿其, 李冰, 等.
 \newblock
   永磁偏置径向—轴向磁悬浮轴承工作原理和参数设计[J].
 \newblock 中国电机工程学报, 2002, 22(9):54--58.
@@ -85,19 +73,20 @@ De~Robertis F, Birks E, Rogers P, et~al.
   26(2):35--37.
 
 \bibitem{刘晓军2006人工心脏泵磁悬浮转子非线性特性及控制方法研究}
-刘晓军, 刘小英, 胡业发, et~al.
+刘晓军, 刘小英, 胡业发, 等.
 \newblock
   人工心脏泵磁悬浮转子非线性特性及控制方法研究[J].
 \newblock 中國機械工程, 2006, 17(20):2091--2094.
 
 \bibitem{张钢2005磁悬浮支承技术在机床中的应用}
-张钢, 白华, 王春兰, et~al.
+张钢, 白华, 王春兰, 等.
 \newblock 磁悬浮支承技术在机床中的应用[J].
 \newblock 机械工程师, 2005, (8):15--20.
 
 \bibitem{周红海2006分子泵磁悬浮轴承结构及功率放大器设计}
 周红海.
-\newblock 分子泵磁悬浮轴承结构及功率放大器设计[D].
+\newblock
+  分子泵磁悬浮轴承结构及功率放大器设计[硕士学位论文].
 \newblock 哈尔滨: 哈尔滨工业大学, 2006.
 
 \bibitem{关勇2010轴流式磁悬浮人工心脏泵磁悬浮轴承系统设计}
@@ -204,7 +193,7 @@ Xu X, Fang J, Wei T.
 \newblock 振动. 测试与诊断, 2014, 34(6):1057--1064.
 
 \bibitem{崔培玲2015基于相移陷波器的磁轴承不平衡振动全频自适应控制}
-崔培玲, 赵光再, 房建成, et~al.
+崔培玲, 赵光再, 房建成, 等.
 \newblock
   基于相移陷波器的磁轴承不平衡振动全频自适应控制[J].
 \newblock 振动与冲击, 2015, 34(20):16--20.
@@ -291,6 +280,12 @@ Xu X, Chen S.
   systems with rotor imbalances and sensor runout[J].
 \newblock Sensors, 2015, 15(9):21876--21897.
 
+\bibitem{iso2004mechanical}
+ISO S.
+\newblock Mechanical vibration-Vibration of rotating machinery equipped with
+  active magnetic bearings-part 3: Evaluation of stability margin[J].
+\newblock ISO 14839-3: 2006 (E), 2004..
+
 \bibitem{francis1975internal}
 Francis B~A, Wonham W~M.
 \newblock The internal model principle for linear multivariable regulators[J].
@@ -298,13 +293,8 @@ Francis B~A, Wonham W~M.
 
 \bibitem{何家希2018磁悬浮高速电机主动振动控制方法及实验研究}
 何家希.
-\newblock 磁悬浮高速电机主动振动控制方法及实验研究[D].
+\newblock
+  磁悬浮高速电机主动振动控制方法及实验研究[硕士学位论文].
 \newblock 南京航空航天大学, 2018.
-
-\bibitem{iso2004mechanical}
-ISO S.
-\newblock Mechanical vibration-Vibration of rotating machinery equipped with
-  active magnetic bearings-part 3: Evaluation of stability margin[J].
-\newblock ISO 14839-3: 2006 (E), 2004..
 
 \end{thebibliography}

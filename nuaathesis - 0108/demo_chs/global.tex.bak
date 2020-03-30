@@ -1,0 +1,142 @@
+\iffalse
+  % 本块代码被上方的 iffalse 注释掉，如需使用，请改为 iftrue
+  % 使用 Noto 字体替换中文宋体、黑体
+  \setCJKfamilyfont{\CJKrmdefault}[BoldFont=Noto Serif CJK SC Bold]{Noto Serif CJK SC}
+  \renewcommand\songti{\CJKfamily{\CJKrmdefault}}
+  \setCJKfamilyfont{\CJKsfdefault}[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC Medium}
+  \renewcommand\heiti{\CJKfamily{\CJKsfdefault}}
+\fi
+
+\iffalse
+  % 本块代码被上方的 iffalse 注释掉，如需使用，请改为 iftrue
+  % 在 XeLaTeX + ctexbook 环境下使用 Noto 日文字体
+  \setCJKfamilyfont{mc}[BoldFont=Noto Serif CJK JP Bold]{Noto Serif CJK JP}
+  \newcommand\mcfamily{\CJKfamily{mc}}
+  \setCJKfamilyfont{gt}[BoldFont=Noto Sans CJK JP Bold]{Noto Sans CJK JP}
+  \newcommand\gtfamily{\CJKfamily{gt}}
+\fi
+
+
+% 设置基本文档信息，\linebreak 前面不要有空格，否则在无需换行的场合，中文之间的空格无法消除
+\nuaaset{
+  title = {基于重复控制器的\linebreak 磁悬浮轴承转子振动抑制研究},
+  author = {蔡凯文},
+  college = {自动化学院},
+  advisers = {邓智泉教授},
+  % applydate = {二〇一八年六月}  % 默认当前日期
+  %
+  % 本科
+  major = {\LaTeX{} 科学与技术},
+  studentid = {131810299},
+  classid = {1318001},
+  % 硕/博士
+  majorsubject = {电气工程},
+  researchfield = {磁悬浮轴承},
+  libraryclassid = {TP371},       % 中图分类号
+  subjectclassid = {080605},      % 学科分类号
+  thesisid = {1028704 18-S000},   % 论文编号
+}
+\nuaasetEn{
+  title = {Vibration Suppression for Magnetic Bearings based on Repetitive Controller},
+  author = {Kaiwen Cai},
+  college = {College of Automation and Engineering},
+  majorsubject = {Electric Engineering},
+  advisers = {Prof.~Zhiquan Deng},
+  degreefull = {Master of Engineering},
+  % applydate = {June, 8012}
+}
+
+% 摘要
+\begin{abstract}
+磁悬浮轴承具有无摩擦、无需润滑、轴承动力学特性可调等优点，被广泛应用于透平机械。然而转子质量不平衡和传感器检测面不均匀等因素导致磁悬浮轴承闭环控制系统中存在与转速同频和倍频的正弦扰动信号，引起磁悬浮轴承控制系统功率消耗上升、电机机壳振动加剧甚至是整机失稳。本文针对磁悬浮轴承中的同频与倍频振动问题提出一套组合方案：零相移奇数次重复控制器抑制同频与倍频振动和基于该控制器的现场动平衡方法抑制同频振动。
+
+本文提出了零相移奇数次重复控制器用于解决质量不平衡和传感器误差引起的同频和倍频振动问题。该方法可以有效抑制消除控制电流基波和谐波，进而抑制磁悬浮轴承上的振动力。该方法解决了传统重复控制器谐波抑制频率冗余、谐波抑制效果随频率上升而削弱的问题，显著提升了重复控制器在磁悬浮轴承中的谐波抑制性能。
+
+为进一步抑制同频振动，本文提出了基于零相移奇数次重复控制器的现场动平衡方法。该方法弥补在线振动控制算法无法同时达到振动位移最小化和振动力最小化目标的缺陷，实现同时抑制同频振动力和振动位移。该方法基于前文设计的零相移奇数次重复控制器，无需进行额外的参数调整；与传统动平衡方法相比，无需拆装转子或多次试重，操作更加便捷。
+
+本文搭建了由ARM和FPGA芯片组成的磁悬浮轴承数字控制平台，基于此平台验证了上述组合方案可以有效解决磁悬浮轴承振动问题：显著消除电流基波和谐波、降低基座振动力、降低转子振动位移。
+
+\end{abstract}
+\keywords{磁悬浮轴承,振动抑制,同频振动,倍频振动,重复控制器,现场动平衡}
+
+\begin{abstractEn}
+Magnetic bearing has been widely used in turbo-machinery owing to its numerous advantages including no friction, no need for lubrication and adjustable rotor dynamics. However, rotor mass unbalance and sensor runout cause the existence of synchronous and mutil-frequceny sinusodial disturbance in the closed-loop system. Such disturbance leads to higher power consumption in magnetic bearing control system, intensified viration in the housing and even loss of stability. To solve this problem, this paper proposes a set of solution which concludes the Zero-phase Odd-harmonic Repetitive Controller(ZORC) and the field balancing method based on the ZORC. 
+
+The proposed ZORC was aimed at the suppression of synchornous and multi-frequency vibraion. The proposed method can eliminate fundenmental and harmonic control currents and thus suppress vibration force in the housing. It further improves the performance of Conventional Repetitive Controller(CRC) which has the drawbacks of reductant actions at certain frequencies and degraded suppressing capability at high-order frequencies.
+
+In addition, the field balancing method based on the proposed ZORC was proposed to further suppress synchornous vibration. The proposed field balancing method can achieve the minimazation of vibration and vibration displacement at the same time, while online vibration control algorithms cannot. The proposed field balancing method was totally based on the aformentioned ZORC without the need to design parameters again. Compared with conventional balancing methods, the proposed method saves time spent on uninstalling and installing rotor.
+
+A digital control system consisting of a ARM chip and a FPGA chip was developed in this paper. Experimental results carried out in this test rig showed the proposed solution can siginificantly eliminate synchornous and multi-frequency vibration currents, suppress housing vibration and decrease displacement vibration.
+
+\end{abstractEn}
+\keywordsEn{field balancing, magnetic bearing, multi-frequency vibration, repetitive controller, synchronous vibration, vibration suppression}
+
+
+% 请按自己的论文排版需求，随意修改以下全局设置
+
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\pgfplotsset{
+  table/search path={./fig/},
+}
+\usepackage{ifthen}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{pifont}
+
+\usepackage{enumitem}
+\setenumerate{fullwidth,itemindent=14pt,listparindent=0pt,itemsep=0ex,partopsep=0pt,parsep=0ex,label=（\arabic*）}
+%\setenumerate{fullwidth,itemindent=14pt,listparindent=\parindent,itemsep=0ex,partopsep=0pt,parsep=0ex,label=（\arabic*）}
+\lstdefinestyle{lstStyleBase}{%
+  basicstyle=\small\ttfamily,
+  aboveskip=\medskipamount,
+  belowskip=\medskipamount,
+  lineskip=0pt,
+  boxpos=c,
+  showlines=false,
+  extendedchars=true,
+  upquote=true,
+  tabsize=2,
+  showtabs=false,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\footnotesize,
+  linewidth=\linewidth,
+  xleftmargin=\parindent,
+  xrightmargin=0pt,
+  resetmargins=false,
+  breaklines=true,
+  breakatwhitespace=false,
+  breakindent=0pt,
+  breakautoindent=true,
+  columns=flexible,
+  keepspaces=true,
+  framesep=3pt,
+  rulesep=2pt,
+  framerule=1pt,
+  backgroundcolor=\color{gray!5},
+  stringstyle=\color{green!40!black!100},
+  keywordstyle=\bfseries\color{blue!50!black},
+  commentstyle=\slshape\color{black!60}}
+
+%\usetikzlibrary{external}
+%\tikzexternalize % activate!
+
+\newcommand\cs[1]{\texttt{\textbackslash#1}}
+\newcommand\pkg[1]{\texttt{#1}\textsuperscript{PKG}}
+\newcommand\env[1]{\texttt{#1}}
+
+\theoremstyle{nuaaplain}
+\nuaatheoremchapu{definition}{定义}
+\nuaatheoremchapu{assumption}{假设}
+\nuaatheoremchap{exercise}{练习}
+\nuaatheoremchap{nonsense}{胡诌}
+\nuaatheoremg[句]{lines}{句子}
