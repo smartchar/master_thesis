@@ -32,9 +32,9 @@
   % 硕/博士
   majorsubject = {电气工程},
   researchfield = {磁悬浮轴承},
-  libraryclassid = {TP371},       % 中图分类号
-  subjectclassid = {080605},      % 学科分类号
-  thesisid = {1028704 18-S000},   % 论文编号
+  libraryclassid = {TP352},       % 中图分类号
+  subjectclassid = {080804},      % 学科分类号
+  thesisid = {1028703 20-SZ033},   % 论文编号
 }
 \nuaasetEn{
   title = {Vibration Suppression for Magnetic Bearings based on Repetitive Controller},
@@ -64,7 +64,7 @@ Magnetic bearing has been widely used in turbo-machinery owing to its numerous a
 
 The proposed ZORC is aimed at the suppression of synchornous and multi-frequency vibraion. The proposed method can eliminate fundenmental and harmonic control currents and thus suppress vibration force in the housing. It further improves the performance of Conventional Repetitive Controller(CRC) which has the drawbacks of reductant actions at certain frequencies and degraded suppressing capability at high-order frequencies.
 
-The field balancing method based on the proposed ZORC was proposed to further suppress synchornous vibration. The proposed field balancing method can achieve the minimazation of vibration and vibration displacement at the same time, while online vibration control algorithms cannot. The proposed field balancing method was totally based on the aformentioned ZORC without the need to design parameters again. Compared with conventional balancing methods, the proposed method saves time spent on uninstalling and installing rotor.
+The field balancing method based on the proposed ZORC was proposed to further suppress synchornous vibration. The proposed field balancing method can achieve the minimazation of vibration and vibration displacement at the same time, while online vibration control algorithms cannot. The proposed field balancing method was totally based on the aformentioned ZORC, thus there is no need to design the parameters again. Compared with conventional balancing methods, the proposed method saves time spent on uninstalling and installing rotor.
 
 A digital control system consisting of a ARM chip and a FPGA chip was developed in this paper. Experimental results carried out in this test rig showed the proposed solution can siginificantly eliminate synchornous and multi-frequency vibration currents, suppress housing vibration and decrease displacement vibration.
 
@@ -129,6 +129,8 @@ A digital control system consisting of a ARM chip and a FPGA chip was developed 
 
 %\usetikzlibrary{external}
 %\tikzexternalize % activate!
+
+\usepackage{siunitx}
 
 \newcommand\cs[1]{\texttt{\textbackslash#1}}
 \newcommand\pkg[1]{\texttt{#1}\textsuperscript{PKG}}

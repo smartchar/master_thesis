@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  9 JAN 2020 15:03
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  31 MAR 2020 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,7 +271,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.7 感
-     谢彭聪教授对我的研究生阶段全程悉心的指导：从本科毕业设计到硕士毕业论文，她的帮助与支持为我的成长增添了一双翅膀。
+     谢彭聪教授对我的研究生阶段全程悉心的指导：从本科毕业设计到硕士毕业论文，你的帮助与支持为我的成长增添了一双翅膀。
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -312,7 +312,7 @@ Missing character: There is no 业 in font nullfont!
 Missing character: There is no 论 in font nullfont!
 Missing character: There is no 文 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 她 in font nullfont!
+Missing character: There is no 你 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 帮 in font nullfont!
 Missing character: There is no 助 in font nullfont!
@@ -504,7 +504,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 感
-      谢高速电机研究室的同仁们，每一位的努力都是研究室发展的强劲能源，驱动着研究室乘风破浪。感谢师兄王骋和赵鑫晨，你们始终耐心地与我交流读博路上的...
+      谢高速电机研究室的同仁们，你们每一位的努力都是研究室发展的强劲能源，驱动着研究室乘风破浪。感谢师兄王骋和赵星晨，你们始终热心、耐心地与我交流...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -523,6 +523,8 @@ Missing character: There is no 同 in font nullfont!
 Missing character: There is no 仁 in font nullfont!
 Missing character: There is no 们 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 你 in font nullfont!
+Missing character: There is no 们 in font nullfont!
 Missing character: There is no 每 in font nullfont!
 Missing character: There is no 一 in font nullfont!
 Missing character: There is no 位 in font nullfont!
@@ -561,13 +563,16 @@ Missing character: There is no 王 in font nullfont!
 Missing character: There is no 骋 in font nullfont!
 Missing character: There is no 和 in font nullfont!
 Missing character: There is no 赵 in font nullfont!
-Missing character: There is no 鑫 in font nullfont!
+Missing character: There is no 星 in font nullfont!
 Missing character: There is no 晨 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 你 in font nullfont!
 Missing character: There is no 们 in font nullfont!
 Missing character: There is no 始 in font nullfont!
 Missing character: There is no 终 in font nullfont!
+Missing character: There is no 热 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no 耐 in font nullfont!
 Missing character: There is no 心 in font nullfont!
 Missing character: There is no 地 in font nullfont!
@@ -575,16 +580,13 @@ Missing character: There is no 与 in font nullfont!
 Missing character: There is no 我 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 流 in font nullfont!
-Missing character: There is no 读 in font nullfont!
-Missing character: There is no 博 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 学 in font nullfont!
 Missing character: There is no 路 in font nullfont!
 Missing character: There is no 上 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 经 in font nullfont!
 Missing character: There is no 验 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 规 in font nullfont!
-Missing character: There is no 划 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 让 in font nullfont!
 Missing character: There is no 我 in font nullfont!
@@ -605,7 +607,7 @@ Missing character: There is no 颜 in font nullfont!
 Missing character: There is no 宁 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 许 in font nullfont!
-Missing character: There is no 志 in font nullfont!
+Missing character: There is no 治 in font nullfont!
 Missing character: There is no 宇 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顾 in font nullfont!
@@ -660,12 +662,10 @@ Missing character: There is no 实 in font nullfont!
 Missing character: There is no 验 in font nullfont!
 Missing character: There is no 室 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 师 in font nullfont!
-Missing character: There is no 兄 in font nullfont!
 Missing character: There is no 肖 in font nullfont!
 Missing character: There is no 申 in font nullfont!
 Missing character: There is no 平 in font nullfont!
-Missing character: There is no 和 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no 李 in font nullfont!
 Missing character: There is no 孟 in font nullfont!
 Missing character: There is no 洋 in font nullfont!
@@ -704,20 +704,32 @@ Missing character: There is no 、 in font nullfont!
 Missing character: There is no 缪 in font nullfont!
 Missing character: There is no 伟 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 愿 in font nullfont!
-Missing character: There is no 我 in font nullfont!
+Missing character: There is no 实 in font nullfont!
+Missing character: There is no 验 in font nullfont!
+Missing character: There is no 室 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 活 in font nullfont!
+Missing character: There is no 因 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 你 in font nullfont!
 Missing character: There is no 们 in font nullfont!
-Missing character: There is no 欢 in font nullfont!
-Missing character: There is no 声 in font nullfont!
-Missing character: There is no 笑 in font nullfont!
-Missing character: There is no 语 in font nullfont!
+Missing character: There is no 而 in font nullfont!
+Missing character: There is no 多 in font nullfont!
+Missing character: There is no 彩 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 淡 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 时 in font nullfont!
 Missing character: There is no 光 in font nullfont!
-Missing character: There is no 再 in font nullfont!
-Missing character: There is no 长 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 点 in font nullfont!
+Missing character: There is no 因 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 你 in font nullfont!
+Missing character: There is no 们 in font nullfont!
+Missing character: There is no 而 in font nullfont!
+Missing character: There is no 欢 in font nullfont!
+Missing character: There is no 快 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
@@ -781,7 +793,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.17 感
-      谢我的好朋友们马少博、刘帅、王文思、陆程佳，共度大学时光、挚友情谊难忘。
+      谢我的好朋友马少博、刘帅、王文思、陆程佳，共度大学时光、挚友情谊难忘。
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -792,7 +804,6 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 好 in font nullfont!
 Missing character: There is no 朋 in font nullfont!
 Missing character: There is no 友 in font nullfont!
-Missing character: There is no 们 in font nullfont!
 Missing character: There is no 马 in font nullfont!
 Missing character: There is no 少 in font nullfont!
 Missing character: There is no 博 in font nullfont!
@@ -835,7 +846,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.19 感
-      谢女友户红艳，你是我在初冬里遇见的暖阳。
+      谢女友户红艳，可爱的你让我每天都更加快乐。
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -847,18 +858,19 @@ Missing character: There is no 户 in font nullfont!
 Missing character: There is no 红 in font nullfont!
 Missing character: There is no 艳 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 你 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 我 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 初 in font nullfont!
-Missing character: There is no 冬 in font nullfont!
-Missing character: There is no 里 in font nullfont!
-Missing character: There is no 遇 in font nullfont!
-Missing character: There is no 见 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 爱 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 暖 in font nullfont!
-Missing character: There is no 阳 in font nullfont!
+Missing character: There is no 你 in font nullfont!
+Missing character: There is no 让 in font nullfont!
+Missing character: There is no 我 in font nullfont!
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 天 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 更 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 快 in font nullfont!
+Missing character: There is no 乐 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
@@ -917,5 +929,5 @@ Here is how much of TeX's memory you used:
  4120 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 5i,0n,4p,228b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 5i,0n,4p,240b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  9 JAN 2020 16:35
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.22)  31 MAR 2020 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2248,15 +2248,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \tf@toc=\write5
 \openout5 = `master.toc'.
 
- [4] (./master.lof
-Overfull \hbox (6.24503pt too wide) in paragraph at lines 31--31
- []|| [][]\TU/SimSun(0)/m/n/10.53937 转 子 \T1/ntxtlf/m/n/10.53937 250Hz \TU/SimS
-un(0)/m/n/10.53937 时 定 子 基 座 的 加 速 度 实 验 测 量 结 果：| \T1/ntxtlf/m/n/10.53937 (a)P
-ID\TU/SimSun(0)/m/n/10.53937 ，| \T1/ntxtlf/m/n/10.53937 (b)PID+CRC\TU/SimSun(0)
-/m/n/10.53937 ，| \T1/ntxtlf/m/n/10.53937 (c)PID+ZORC[]| 
- []
-
-[5
+ [4] (./master.lof [5
 
 
 ])
@@ -2270,7 +2262,8 @@ ID\TU/SimSun(0)/m/n/10.53937 ，| \T1/ntxtlf/m/n/10.53937 (b)PID+CRC\TU/SimSun(0
  [6]
 \openout2 = `content/abbr.aux'.
 
- (./content/abbr.tex
+
+(./content/abbr.tex
 Underfull \vbox (badness 10000) detected at line 95
  []
 
@@ -2415,18 +2408,20 @@ File: ./fig/5-orc_current_fft.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27]
 File: ./fig/5-rotor_locus.png Graphic file (type bmp)
 <./fig/5-rotor_locus.png>
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[27]
 File: ./fig/5-orc_acc.png Graphic file (type bmp)
 <./fig/5-orc_acc.png>
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 710.
 [28] [29] [30]
 第四章
 [31
@@ -2448,6 +2443,14 @@ File: ./fig/5-s3-x-w0-pid.png Graphic file (type bmp)
 <./fig/5-s3-x-w0-pid.png>
 File: ./fig/5-s3-x-w1-pid.png Graphic file (type bmp)
 <./fig/5-s3-x-w1-pid.png>
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
+190.
+
+(d:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 1190.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2567,12 +2570,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 55316 strings out of 492956
- 1259754 string characters out of 6128413
- 1464731 words of memory out of 5000000
- 58400 multiletter control sequences out of 15000+600000
- 659599 words of font info for 179 fonts, out of 8000000 for 9000
+ 55404 strings out of 492956
+ 1261368 string characters out of 6128413
+ 1464732 words of memory out of 5000000
+ 58484 multiletter control sequences out of 15000+600000
+ 693910 words of font info for 235 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,20n,127p,1803b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,20n,127p,1799b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on master.pdf (70 pages).

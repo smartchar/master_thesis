@@ -25,10 +25,10 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces $L_0(z)$、$L_1(z)$和$L_2(z)$传递函数幅频曲线\relax }}{25}{figure.caption.24}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces CRC和ZORC仿真模型\relax }}{26}{figure.caption.25}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces 加入CRC和ZORC的$i_{XB}$时域仿真波形：(a)加入CRC前后电流波形，(b)加入ZORC前后电流波形\relax }}{26}{figure.caption.26}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 转子250Hz时的控制电流时域波形实验测量结果：(a)加入CRC前后电流波形，(b)加入ZORC前后电流波形\relax }}{27}{figure.caption.27}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 转子250Hz时的控制电流频谱实验测量结果：(a)PID，(b)PID+CRC，(c)PID+ZORC\relax }}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 转子250Hz时两端的轴心轨迹实验测量结果：(a)PID，(b)PID+CRC，(c)PID+ZORC\relax }}{29}{figure.caption.30}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 转子250Hz时定子基座的加速度实验测量结果：(a)PID，(b)PID+CRC，(c)PID+ZORC\relax }}{29}{figure.caption.31}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 转子\SI {250}{\Hz }时的控制电流时域波形实验测量结果：(a)加入CRC前后电流波形，(b)加入ZORC前后电流波形\relax }}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 转子\SI {250}{\Hz }时的控制电流频谱实验测量结果：(a)PID，(b)PID+CRC，(c)PID+ZORC\relax }}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 转子\SI {250}{\Hz }时两端的轴心轨迹实验测量结果：(a)PID，(b)PID+CRC，(c)PID+ZORC\relax }}{29}{figure.caption.30}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 转子\SI {250}{\Hz }时定子基座加速度实验测量结果：(a)PID，(b)PID+CRC，(c)PID+ZORC\relax }}{29}{figure.caption.31}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 圆盘静止时几何中心、质量中心、旋转中心和偏心距的分布\relax }}{33}{figure.caption.32}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 几何中心与旋转中心重合时圆盘的偏心距分布\relax }}{34}{figure.caption.33}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 质量中心与旋转中心重合时圆盘的偏心距分布\relax }}{35}{figure.caption.34}
